@@ -1,34 +1,22 @@
-# Project Overview
+## Project Overview
 
-## Project Name
+### Project Name
 
 Go4Profit - go4profit.com
 
-## Project Description
+### Project Description
 
-Go4Profit is a bookkeeping company. It provides business owners with a platform where they can learn the financial aspect of their business beyond numbers in easy language to help them to make well-informed future choices. 
+Go4Profit is a bookkeeping company. The company provides business owners with a platform where they can learn the financial aspect of their business beyond numbers in easy language to help them to make well-informed future choices. And, it has been running for 2 years. The company is looking to grow business at an international scale.
  
-## Design
+### Design
+Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A1
 
- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVJ2tC2IqZutCETpu7MyZyP%2Fgo4profit%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+### MVP 
 
-#### MVP 
-
-- Users can select any States in the US to receive information about Covid-19
-- External API will provide needed information.
-- All information will be applied to the page.
-- It allows to see them confirmed cases, confirmed deaths and recovery.
-- After each new selection, old information will be removed. 
-
-
-#### PostMVP  
-
-- Will be added event listeners to receive correct information from API.
-- Most selectable States will be kept in local storage.
-- Will be added extra API to check Covid-19 cases in worldwide in one page.
-- Will be used animation and gifts.
-- Will have adjusted for small devices as well.
-- Will be added extra space to have users feedback and suggestions. 
+- Users have the navbar for easy navigation through the entire website.
+- Each page has its own context about the company Contains but not limited to the following: what sets apart, why us, focused on growth, CEO info, easy steps to start, services.
+- 
+- 
 
 ## Project Schedule
 
