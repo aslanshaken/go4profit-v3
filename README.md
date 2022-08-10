@@ -40,7 +40,7 @@ In this project we are using the Waterfall model
 
 | Component | Estimated Time | Actual Time |
 | --- | :---: | :---: |
-|Working on read.me (writting the project description) | 2hrs | 0hrs |
+|Working on read.me (writting the project description) | 2hrs | 2hrs |
 |Base React Fundament | 2hrs | 0hrs |
 |Nav Bar | 2hrs | 0hrs |
 |Footer | 2hrs | 0hrs |
