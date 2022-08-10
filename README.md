@@ -15,6 +15,7 @@ Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A
 
 ### MVP 
 
+- The site would be written in free open source react that uses js library.  
 - Users have the navbar for easy navigation through the entire website.
 - Each page has its own context about the company. Contains but not limited to the following: what sets apart, why us, focused on growth, CEO info, easy steps to start, services.
 - The footer includes nav links and information about the company such as address, email and cell phone number.
@@ -39,6 +40,7 @@ In this project we are using the Waterfall model
 
 | Component | Estimated Time | Actual Time |
 | --- | :---: | :---: |
+|Working on read.me (writting the project description) | 2hrs | 0hrs |
 |Base React Fundament | 2hrs | 0hrs |
 |Nav Bar | 2hrs | 0hrs |
 |Footer | 2hrs | 0hrs |
@@ -48,4 +50,4 @@ In this project we are using the Waterfall model
 |Services | 2hrs | 0hrs |
 |Join Us | 2hrs | 0hrs |
 |Unexpected issues | 4hrs | 0hrs |
-|Total | 20hrs | 0hrs |
+|Total | 22hrs | 0hrs |
