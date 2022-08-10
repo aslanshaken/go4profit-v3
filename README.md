@@ -14,20 +14,21 @@ Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A
 ### MVP 
 
 - Users have the navbar for easy navigation through the entire website.
-- Each page has its own context about the company Contains but not limited to the following: what sets apart, why us, focused on growth, CEO info, easy steps to start, services.
-- 
-- 
+- Each page has its own context about the company. Contains but not limited to the following: what sets apart, why us, focused on growth, CEO info, easy steps to start, services.
+- The footer includes nav links and information about the company such as address, email and cell phone number.
+- Users can schedule a call with the company's staff using Calendly.
+- Also, the site allows users to fill out the form and send it to the company's email. 
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 18| Prompt / Wireframes / Priority Matrix / Timeframes | completed
-|Dec 21| Project Approval | completed
-|Dec 22| Core Application Structure (HTML, CSS, etc.) | completed
-|Dec 23| Pseudocode / actual code | completed
-|Jan 4| MVP | completed
-|Jan 5| Presentations | completed
+|Aug 8| Prompt / Wireframes / Priority Matrix / Timeframes | completed
+|EMPTY| Project Approval | completed
+|EMPTY| Core Application Structure (HTML, CSS, etc.) | completed
+|EMPTY| Pseudocode / actual code | completed
+|EMPTY| MVP | completed
+|EMPTY| Presentations | completed
 
 ## Priority Matrix
 
