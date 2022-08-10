@@ -22,7 +22,7 @@ Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A
 - Users can schedule a call with the company's staff using Calendly.
 - Also, the site allows users to fill out the form and send it to the company's email. 
 
-## Project Schedule
+### Project Schedule
 
 In this project we are using the Waterfall model
 
@@ -36,7 +36,7 @@ In this project we are using the Waterfall model
 |EMPTY| Testing | not completed
 |EMPTY| Deployment | not completed
 
-## Timeframes
+### Timeframes
 
 | Component | Estimated Time | Actual Time |
 | --- | :---: | :---: |
@@ -52,7 +52,7 @@ In this project we are using the Waterfall model
 |Unexpected issues | 4hrs | 0hrs |
 |Total | 22hrs | 0hrs |
 
-## How to start
+### How to start
 
 In the project directory, you can run:
 
@@ -75,7 +75,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
