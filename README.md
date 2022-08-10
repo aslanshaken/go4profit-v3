@@ -11,6 +11,8 @@ Go4Profit is a bookkeeping company. The company provides business owners with a 
 ### Design
 Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A1
 
+<img width="532" alt="image" src="https://user-images.githubusercontent.com/62974285/184010463-607a7955-ebc9-4c08-b31d-2822a2f00fdb.png">
+
 ### MVP 
 
 - Users have the navbar for easy navigation through the entire website.
@@ -21,34 +23,29 @@ Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A
 
 ## Project Schedule
 
+In this project we are using the Waterfall model
+
 |  Day | Deliverable | Status
 |---|---| ---|
-|Aug 8| Prompt / Wireframes / Priority Matrix / Timeframes | completed
-|EMPTY| Project Approval | completed
-|EMPTY| Core Application Structure (HTML, CSS, etc.) | completed
-|EMPTY| Pseudocode / actual code | completed
-|EMPTY| MVP | completed
-|EMPTY| Presentations | completed
-
-## Priority Matrix
-
-Please check the link -https://res.cloudinary.com/dx93cbdm4/image/upload/v1608615517/Untitled_drawing_qgo1m8.jpg
+|July 1| Requirements | completed
+|July 15| Context | completed
+|July 30| Design | completed
+|Aug 10| Core Application Structure (react, js) | completed
+|EMPTY| Pseudocode / actual code | not completed
+|EMPTY| Testing | not completed
+|EMPTY| Deployment | not completed
 
 ## Timeframes
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-|API Research | H | 7hrs|10hrs |10hrs  |
-|Work with html tags  | H | 3hrs|5hrs |5hrs  |
-|Adding and testing API functions with console logs | H | 4hrs|2hrs |2hrs  
-|Adjust flex box design to div tags in html | H | 5hrs|6hrs |6hrs |
-|Add input and button tags, and connect them with API | H | 3hrs|2hrs |2hrs 
-|Test API request in html | H | 1hrs|1hrs |1hrs  
-|Apply correctly API's data to HTML| H | 4hrs|5hrs|5hrs
-|Apply design for small devices | H | 4hrs|5hrs |5hrs  
-|Add outsourse data(images,gifts, animations etc.) | H | 3hrs|3hrs |3hrs |
-|Apply design and make it user friendly with correct logic | H | 4hrs|4hrs |4hrs  |
-|Additional futures | H | 3hrs|2hrs |2hrs  |
-| Total | H | 41 hours|45hrs |45hrs  |
-
-## Code Snippet
+| Component | Estimated Time | Actual Time |
+| --- | :---: | :---: |
+|Base React Fundament | 2hrs | 0hrs |
+|Nav Bar | 2hrs | 0hrs |
+|Footer | 2hrs | 0hrs |
+|Home | 2hrs | 0hrs |
+|About Us | 2hrs | 0hrs |
+|Why Us | 2hrs | 0hrs |
+|Services | 2hrs | 0hrs |
+|Join Us | 2hrs | 0hrs |
+|Unexpected issues | 4hrs | 0hrs |
+|Total | 20hrs | 0hrs |
