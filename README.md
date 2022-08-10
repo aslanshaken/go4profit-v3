@@ -13,6 +13,11 @@ Figma - https://www.figma.com/file/VJ2tC2IqZutCETpu7MyZyP/go4profit?node-id=0%3A
 
 <img width="532" alt="image" src="https://user-images.githubusercontent.com/62974285/184010463-607a7955-ebc9-4c08-b31d-2822a2f00fdb.png">
 
+### Stacks
+- React
+- React Bootstrap
+- Material Ui
+
 ### MVP 
 
 - The site would be written in free open source react that uses js library.  

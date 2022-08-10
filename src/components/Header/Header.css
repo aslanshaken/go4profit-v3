@@ -1,0 +1,18 @@
+.call-button {
+  background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
+  border-radius: 40px;
+  border: none;
+}
+
+.logo-img {
+  width: 60%;
+}
+
+.mv-button-right {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.mv-logo-right {
+  margin-right: 70px;
+}
