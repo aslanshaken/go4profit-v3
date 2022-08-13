@@ -48,7 +48,7 @@ In this project we are using the Waterfall model
 |Working on read.me (writting the project description) | 2hrs | 2hrs |
 |Base React Fundament | 2hrs | 2hrs |
 |Nav Bar | 2hrs | 1hrs |
-|Footer | 2hrs | 0hrs |
+|Footer | 2hrs | 3hrs |
 |Home | 2hrs | 0hrs |
 |About Us | 2hrs | 0hrs |
 |Why Us | 2hrs | 0hrs |
