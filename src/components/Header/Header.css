@@ -16,3 +16,7 @@
 .mv-logo-right {
   margin-right: 70px;
 }
+
+.active {
+  border-bottom: 1px solid #41635C;
+}
