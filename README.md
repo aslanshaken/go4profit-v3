@@ -49,13 +49,13 @@ In this project we are using the Waterfall model
 |Base React Fundament | 2hrs | 2hrs |
 |Nav Bar | 2hrs | 1hrs |
 |Footer | 2hrs | 3hrs |
-|Home | 2hrs | 0hrs |
+|Home | 8hrs | 2hrs |
 |About Us | 2hrs | 0hrs |
 |Why Us | 2hrs | 0hrs |
 |Services | 2hrs | 0hrs |
 |Join Us | 2hrs | 0hrs |
 |Unexpected issues | 4hrs | 0hrs |
-|Total | 22hrs | 0hrs |
+|Total | 0hrs | 0hrs |
 
 ### How to start
 
