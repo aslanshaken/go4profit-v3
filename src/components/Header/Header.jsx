@@ -10,7 +10,7 @@ function Header() {
   const path = location.pathname
 
   return (
-    <Navbar expand="xl" sticky="top" className="gap-3 pt-5 pb-5" bg="light" variant="light">
+    <Navbar expand="xl" sticky="top" className="gap-3 pt-4 pb-4" bg="light" variant="light">
       <Container className="align-items:center color-black">
         <Navbar.Brand href="/" className="mv-logo-right">
          <Image alt="logo" src={Logo} className="logo-img" />
