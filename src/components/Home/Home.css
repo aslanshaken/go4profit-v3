@@ -1,7 +1,7 @@
 .home-container {
   background-color: #505050;
   display: grid;
-  grid-template-rows: 1fr 1fr 50px 400px;
+  grid-template-rows: 1fr 1fr 50px 400px 80px;
   justify-items: center;
   justify-content: center;
   color: #FFFFFF;
@@ -100,10 +100,20 @@
   margin-bottom: 5%;
 }
 
+.learn-main-button {
+  align-self: center;
+}
+
+.learn-more-button {
+  background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
+  border-radius: 40px;
+  border: none;
+}
+
 @media (max-width: 1000px) {
 
   .home-container {
-    grid-template-rows: 400px 1fr 100px 1fr;
+    grid-template-rows: 400px 1fr 100px 1fr 80px;
   }
 
   /* First */
@@ -149,7 +159,7 @@
 
 @media (max-width: 750px) {
   .home-container {
-    grid-template-rows: 400px 600px 100px 1fr;
+    grid-template-rows: 400px 600px 100px 1fr 80px;
   }
 
   .home-bullet-points {

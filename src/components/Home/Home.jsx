@@ -85,6 +85,9 @@ export default function Home(){
           </p>
         </div>
       </div>
+      <div className='learn-main-button'>
+        <Button variant="success" className="learn-more-button">Learn More</Button>{''}
+      </div>
     </div>
   )
 }
