@@ -1,11 +1,14 @@
 import './About.css';
 import Button from 'react-bootstrap/Button';
+import Eclipse from '../../assets/ecliplse.png';
+import FirstImage from '../../assets/about1.png';
 
 export default function About() {
   return(
     <div className='about-container'>
       <div className='about-first'>
-        <h2>About Go4Profit</h2>
+        <img className='about-first-img' alt='eclipse' src={Eclipse} />
+        <h1>About Go4Profit</h1>
         <p className='about-first-paragraph'>
           We make business world better 
           by making business owners more 
@@ -21,10 +24,27 @@ export default function About() {
           language to help them to make well-informed 
           future choices.
         </p>
-        <div className='learn-main-button'>
-          <Button variant="success" className="learn-more-button">Get in touch</Button>{''}
+        <div className='get-in-touch-main-button'>
+          <Button variant="success" className="get-in-touch-button">Get in touch</Button>{''}
         </div>
-        <h1> About go4profit</h1>
+        <p className='about-first-overflow-txt'>ABOUT GO4PROFIT</p>
+      </div>
+      <div className='about-space'></div>
+      <div className='about-second'>
+        <div className='about-second-a'>
+        <h3>Why us ?</h3>
+        <p>Skilled bookkeeping experts</p>
+        <p>It’s hard enough to find a good bookkeeper, 
+          let alone ones who understand your product and 
+          market. We bring qualified bookkeeping experts 
+          to the table who can hit every angle—technical 
+          datasheets, innovative white papers, 
+          TechCrunch-worthy articles, snappy ad copy, 
+          and more. We excel in turning complex ideas 
+          into concrete, lead-generating content pieces.
+        </p>
+        </div>
+        <img alt='ima' src={FirstImage}/>
       </div>
     </div>
   )

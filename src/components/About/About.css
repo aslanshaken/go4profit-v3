@@ -3,14 +3,143 @@
   color: #FFFFFF;
 }
 
+/* FIRST */
 .about-first {
+  position: relative;
   display: grid;
-  grid-template-rows: 200px 1fr 1fr 1fr;
+  grid-template-rows: 200px 1fr 100px 100px;
   justify-items: center;
   align-items: center;
 }
 
+.about-first h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.about-first-img {
+  width: 250px;
+  position: absolute;
+  top: -20px;
+  left: -50px;
+  right: 0;
+}
+
 .about-first-paragraph {
-  padding: 0% 14% 0% 14%;
+  padding: 0% 25% 0% 25%;
   text-align: center;
+  line-height: 30px;
+}
+
+.get-in-touch-button {
+  background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
+  border-radius: 30px;
+  border: none;
+}
+
+.about-first-overflow-txt {
+  font-size: 160px;
+  font-weight: 600;
+  color: #686666;
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  left: -200px;
+  word-wrap: break-word;
+}
+
+.about-space {
+  background-color: rgb(122, 120, 120);
+  height: 30px;
+}
+
+/* SECOND */
+.about-second {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-items: center;
+  align-items: center;
+  gap: 2em;
+  padding: 10%;
+}
+
+.about-second img {
+  width: 500px;
+}
+
+@media (max-width: 1220px) {
+  .about-first-overflow-txt {
+    font-size: 140px;
+  }
+
+}
+
+@media (max-width: 1045px) {
+  .about-first {
+    grid-template-rows: 200px 1fr 100px 90px;
+  }
+
+  .about-first-overflow-txt {
+    font-size: 120px;
+  }
+
+  .about-first-paragraph {
+    padding: 0% 15% 0% 15%;
+  }
+
+}
+
+@media (max-width: 870px) {
+  .about-first-overflow-txt {
+    font-size: 110px;
+  }
+}
+
+@media (max-width: 780px) {
+  .about-first-overflow-txt {
+    font-size: 90px;
+    left: -150px;
+    bottom: -80px;
+  }
+}
+
+@media (max-width: 660px) {
+  .about-first-overflow-txt {
+    font-size: 77px;
+    left: -130px;
+    bottom: -70px;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-first {
+    grid-template-rows: 200px 1fr 100px 70px;
+  }
+
+  .about-first-overflow-txt {
+    font-size: 63px;
+    left: -120px;
+    bottom: -60px;
+  }
+
+  .about-first-paragraph {
+    padding: 0% 5% 0% 5%;
+  }
+}
+
+@media (max-width: 440px) {
+
+  .about-first-overflow-txt {
+    font-size: 46px;
+    left: -30px;
+    bottom: -50px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .about-first-overflow-txt {
+    font-size: 40px;
+    left: -30px;
+    bottom: -50px;
+  }
 }

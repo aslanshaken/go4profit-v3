@@ -63,7 +63,7 @@ export default function Home(){
           </p>
         </div>
         <div>
-        <img alt='rd-img' src={Money} />
+          <img alt='rd-img' src={Money} />
           <p className='home-paragraph' >Our dutes - your money</p>
           <p className='home-paragraph' >Ever changing legislation and 
             regulations demand an accountant
