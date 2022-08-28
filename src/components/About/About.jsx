@@ -9,6 +9,7 @@ import Vector3 from '../../assets/Vector-3.png';
 import Vector4 from '../../assets/Vector-4.png';
 import Vector5 from '../../assets/Vector-5.png';
 import Finance from '../../assets/finance-tutor-4.png';
+import Ava from '../../assets/ainur-ava.png';
 
 
 export default function About() {
@@ -16,7 +17,7 @@ export default function About() {
     <div className='about-container'>
       <div className='about-first'>
         <img className='about-first-img' alt='eclipse' src={Eclipse} />
-        <h1>About Go4Profit</h1>
+        <h2>About Go4Profit</h2>
         <p className='about-first-paragraph'>
           We make business world better 
           by making business owners more 
@@ -35,13 +36,13 @@ export default function About() {
         <div className='get-in-touch-main-button'>
           <Button variant="success" className="get-in-touch-button">Get in touch</Button>{''}
         </div>
-        <p className='about-first-overflow-txt'>ABOUT GO4PROFIT</p>
+        <p className='about-overflow-txt'>ABOUT GO4PROFIT</p>
       </div>
       <div className='about-space'></div>
       <div className='about-second'>
         <div className='about-second-a'>
         <h3>Why us ?</h3>
-        <h4>Skilled bookkeeping experts</h4>
+        <h5>Skilled bookkeeping experts</h5>
         <br/>
         <p>It’s hard enough to find a good bookkeeper, 
           let alone ones who understand your product and 
@@ -102,9 +103,42 @@ export default function About() {
            you put them in place.
         </p>
         </div>
-        <p className='about-forth-overflow-txt'>LEADERSHIP</p>
+        <p className='about-overflow-txt'>LEADERSHIP</p>
       </div>
-      <div className='about-forth-space'></div>
+      <div className='about-space'></div>
+      <div className='about-fifth'>
+        <img alt='ava' src={Ava}/>
+        <div className='about-fifth-b'>
+          <p>I am thrilled that you found 
+            my site! I'm Amy, CEO of Go4Profit
+            Bookkeeping Services and the one 
+            you'll be working closely with.
+              I am a trusted partner to my 
+              clients because I always treat
+              their business as my own. 
+          </p>
+          <br/>
+          <p>
+          I know how hard it is for a business
+           owner to carry all the weight and 
+           perform multiple tasks at the same time. 
+           You started your business because you are
+            passionate about your customers, not
+             managing your own books, so let me 
+             do it for you. I not only want to 
+             help you be more organized, but I 
+             also want to help you and your business 
+             grow and help gain control over your 
+             finances.
+          </p>
+          <br/>
+          <h4>We Make Your Business Easy And Your Live Easier.</h4>
+          <br/>
+          <div className='get-in-touch-main-button'>
+          <Button variant="success" className="get-in-touch-button">Contact</Button>{''}
+        </div>
+        </div>
+      </div>
     </div>
   )
 }
