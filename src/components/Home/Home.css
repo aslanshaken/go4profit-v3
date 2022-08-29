@@ -5,6 +5,8 @@
   justify-items: center;
   justify-content: center;
   color: #FFFFFF;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 /* First */
@@ -22,11 +24,10 @@
 .home-header {
   font-size: 28px;
   font-weight: 700;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .home-paragraph {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 .home-first-b {

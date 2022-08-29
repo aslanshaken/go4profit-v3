@@ -1,0 +1,130 @@
+.whyus-container {
+  background-color: #505050;
+  color: #FFFFFF;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.whyus-header-h4 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.whyus-header-h5 {
+  text-align: center;
+  line-height: 30px;
+  padding: 0% 10% 0% 10%;
+}
+
+/* FIRST */
+.whyus-first {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+  margin-top: 5%;
+}
+
+.whyus-first-child {
+  display: grid;
+  grid-template-rows: 200px 50px 150px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.whyus-first-child img {
+  height: 170px;
+  margin-bottom: 10%;
+}
+
+.whyus-first-p {
+  align-self: flex-start;
+  margin-top: 5%;
+}
+
+/* SECOND */
+
+.whyus-easy-header {
+  border-bottom: 3px solid #41635C;
+  margin: 8% 0% 5% 0%;
+}
+
+.whyus-second {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  padding: 5%;
+}
+
+.whyus-second-child {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.whyus-second-child-a {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  top: 0;
+  left: 0;
+}
+
+.whyus-second-child-a-img2 {
+  width: 80px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.whyus-second-child-a-img1 {
+  position: absolute;
+  width: 35px;
+  top: -20px;
+  left: 25px;
+}
+
+@media (max-width: 1000px) {
+  .whyus-first {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5%;
+  }
+
+  .whyus-first-child {
+    margin: 5%;
+  }
+
+  .whyus-second {
+    /* grid-template-columns: repeat(1, 1fr); */
+    gap: 1em;
+    padding: 0%;
+  }
+}
+
+@media (max-width: 625px) {
+
+  .whyus-header-h5 {
+    line-height: 30px;
+    padding: 0% 5% 0% 5%;
+  }
+
+
+  .whyus-first {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0em;
+  }
+
+
+  .whyus-first-child {
+    margin: 0%;
+  }
+
+  .whyus-first-p {
+    align-self: flex-start;
+    margin-top: 0%;
+  }
+}
