@@ -15,6 +15,14 @@ import Grow from '../../assets/Grow.png';
 import Communitty from '../../assets/Communitty.png';
 import Trust from '../../assets/Trust.png';
 import Money from '../../assets/Money.png';
+import Application from '../../assets/application.png';
+import Checkbox from '../../assets/checkbox.png';
+import Pen from '../../assets/pen.png';
+import Sign from '../../assets/sign.png';
+import Flag from '../../assets/finish.png';
+import Launch from '../../assets/launch.png';
+import Done from '../../assets/done.png';
+import Alumni from '../../assets/alumni.png';
 
 
 
@@ -76,7 +84,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img2' alt='vec' src={Vec18} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img1}/>
           </div>
-          <div>
+          <div className='whyus-second-child-b'>
             <p>Virtual Meeting</p>
             <p>
               Our CEO will set up a meeting 
@@ -91,7 +99,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img2' alt='vec' src={Communication} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img2}/>
           </div>
-          <div>
+          <div className='whyus-second-child-b'>
             <p>Free Consultation</p>
             <p>
               After reviewing your books we will advise 
@@ -106,7 +114,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img2' alt='vec' src={Money} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img3}/>
           </div>
-          <div>
+          <div className='whyus-second-child-b'>
             <p>Pricing</p>
             <p>
              You deserve to know what you are paying
@@ -121,7 +129,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img2' alt='vec' src={Trust} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img4}/>
           </div>
-          <div>
+          <div className='whyus-second-child-b'>
             <p>Approval</p>
             <p>
               On the approval of our proposal and 
@@ -136,7 +144,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img2' alt='vec' src={Communitty} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img5}/>
           </div>
-          <div>
+          <div className='whyus-second-child-b'>
             <p>Dedicated Team</p>
             <p>
               Our CEO will set up a meeting 
@@ -151,7 +159,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img2' alt='vec' src={Grow} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img6}/>
           </div>
-          <div>
+          <div className='whyus-second-child-b'>
             <p>Long-Term Planning</p>
             <p>
               Your dedicated team, who are fully under 
@@ -162,6 +170,50 @@ export default function WhyUs() {
               for future decisions.
             </p>
           </div>
+        </div>
+      </div>
+      <h4 className='whyus-header-h5'>
+      We have created a streamlined & startup-friendly process to get a quote fast and easy!
+      </h4>
+      <div className='whyus-third'>
+        <div className='whyus-third-child'>
+          <img alt='application' src={Application} />
+          <p className='whyus-third-child-w'>1 week</p>
+          <div className='whyus-third-child-box'>
+            <img alt='someimg' src={Checkbox} />
+            <p>Application</p>
+          </div>
+          <p className='whyus-third-child-p'>Diligance & Selection</p>
+        </div>
+        <div className='whyus-third-border'></div>
+        <div className='whyus-third-child'>
+          <img alt='application' src={Sign} />
+          <p className='whyus-third-child-w'>3-6 weeks</p>
+          <div className='whyus-third-child-box'>
+            <img alt='someimg' src={Pen} />
+            <p>Compaign agreement is signed</p>
+          </div>
+          <p className='whyus-third-child-p'>Onboarding</p>
+        </div>
+        <div className='whyus-third-border'></div>
+        <div className='whyus-third-child'>
+          <img alt='application' src={Launch} />
+          <p className='whyus-third-child-w'>2-3 month</p>
+          <div className='whyus-third-child-box'>
+            <img alt='someimg' src={Flag} />
+            <p>Form C filed & compaign launches</p>
+          </div>
+          <p className='whyus-third-child-p'>Compaign live</p>
+        </div>
+        <div className='whyus-third-border'></div>
+        <div className='whyus-third-child'>
+          <img alt='application' src={Alumni} />
+          <p className='whyus-third-child-w'>Until Exit</p>
+          <div className='whyus-third-child-box'>
+            <img alt='someimg' src={Done} />
+            <p>Alumni community</p>
+          </div>
+          <p className='whyus-third-child-p'>Support</p>
         </div>
       </div>
     </div>
