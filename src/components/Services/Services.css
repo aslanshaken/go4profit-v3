@@ -1,0 +1,89 @@
+.services-container {
+  background-color: #505050;
+  color: #FFFFFF;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.services-header {
+  border-bottom: 3px solid #41635C;
+  margin: 0% 0% 5% 0%;
+}
+
+/* FIRST */
+
+.services-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-first-child {
+  background-color: #f5f5f5;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  width: 320px;
+  height: 680px;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.start-button {
+  background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
+  border-radius: 40px;
+  border: none;
+  padding: 1% 5% 1% 5%;
+}
+
+.services-first-child-b {
+  margin-top: 5%;
+  font-size: small;
+  height: 450px;
+}
+
+.services-first-child-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 0% 6% 0%;
+  border-bottom: 2px solid #41635C;
+  width: 100%;
+  text-align: center;
+}
+
+.services-first-child-a span {
+  color: #41635C;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.services-first-child-a h5 {
+  font-size: large;
+  font-weight: 600;
+}
+
+
+.services-first-child-box {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 2%;
+}
+
+.services-first-child-box img {
+  width: 40px;
+}
+
+.services-first-child-box p {
+  align-self: flex-end;
+}
