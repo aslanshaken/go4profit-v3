@@ -23,6 +23,13 @@ import Flag from '../../assets/finish.png';
 import Launch from '../../assets/launch.png';
 import Done from '../../assets/done.png';
 import Alumni from '../../assets/alumni.png';
+import BBL from '../../assets/BBL-badge.png';
+import Financial from '../../assets/Financial-analysis.png';
+import QBOAdvanced from '../../assets/QBO-Advanced.png';
+import QBO from '../../assets/QBO.png';
+import Shopify from '../../assets/Shopify.png';
+import Gusto from '../../assets/Gusto.png';
+import Hand from '../../assets/hand.png';
 
 
 
@@ -214,6 +221,34 @@ export default function WhyUs() {
             <p>Alumni community</p>
           </div>
           <p className='whyus-third-child-p'>Support</p>
+        </div>
+      </div>
+      <h4 className='whyus-easy-header'>Certifications</h4>
+      <div className='whyus-forth'>
+        <div className='whyus-forth-a'>
+          <h4>You're in good hands</h4>
+          <p>
+            We are nationally certified financial advisors
+            committed to your financial success. Go4Profit
+            has a versatile team of qualified bookkeepers, 
+            financial analysts and tax planners. When you 
+            trust us with your accounts, you can have
+            complete confidence that your information 
+            is safe with us. Our experienced team have 
+            a broad range of qualifications and accreditations 
+            from trusted professional institutes.
+          </p>
+        </div>
+        <div className='whyus-forth-b'>
+          <img alt='badge' src={Hand} />
+        </div>
+        <div className='whyus-forth-c'>
+          <img alt='badge' src={BBL} />
+          <img alt='badge' src={Financial} />
+          <img alt='badge' src={QBOAdvanced} />
+          <img alt='badge' src={QBO} />
+          <img alt='badge' src={Shopify} />
+          <img alt='badge' src={Gusto} />
         </div>
       </div>
     </div>
