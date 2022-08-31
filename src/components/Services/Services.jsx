@@ -1,7 +1,6 @@
 import './Services.css';
 import Button from 'react-bootstrap/Button';
 import Checkbox from '../../assets/green-checkbox.png';
-import Popular from '../../assets/green-checkbox.png';
 
 export default function Services() {
   return(
@@ -9,6 +8,7 @@ export default function Services() {
       <h4 className='services-header'>Businesses we serve</h4>
       <div className='services-first'>
         <div className='services-first-child'>
+          <div className='services-first-popular'> Most Popular</div>
           <div className='services-first-child-a'>
             <h5>StartUP</h5>
             <p>Bookkeeping powered by real humans</p>
@@ -118,8 +118,18 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className='services-first-child'>4</div>
-        <div className='services-first-child'>5</div>
+        <div className='services-first-small-child'>
+          <h5 className='services-header'>Clean up services</h5>
+          <p>Request quote</p>
+          <p>Book a call for custom pricing and packages</p>
+          <Button variant="success" className="book-button">Book</Button>{' '}
+        </div>
+        <div className='services-first-small-child'>
+          <h5 className='services-header'>Catch up services</h5>
+          <p>Request quote</p>
+          <p>Book a call for custom pricing and packages</p>
+          <Button variant="success" className="book-button">Book</Button>{' '}
+        </div>
       </div>
     </div>
   )
