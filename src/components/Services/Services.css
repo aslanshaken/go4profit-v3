@@ -34,7 +34,6 @@
   margin: 2%;
   width: 320px;
   height: 680px;
-  font-size: medium;
   border-radius: 10px;
   position: relative;
 }
@@ -59,21 +58,15 @@
   padding: 1% 5% 1% 5%;
 }
 
-.services-first-child-b {
-  margin-top: 5%;
-  font-size: small;
-  height: 450px;
-}
 
 .services-first-child-a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6% 0% 6% 0%;
+  padding-bottom: 6%;
   border-bottom: 2px solid #41635C;
   width: 100%;
-  text-align: center;
 }
 
 .services-first-child-a span {
@@ -87,19 +80,26 @@
   font-weight: 600;
 }
 
+.services-first-child-b {
+  margin-top: 5%;
+  font-size: small;
+  height: 400px;
+}
 
 .services-first-child-box {
   display: grid;
   grid-template-columns: 15% 85%;
-  padding: 2%;
+  padding: 0% 2% 0% 2%;
 }
 
+
 .services-first-child-box img {
-  width: 40px;
+  width: 35px;
+  align-self: center;
 }
 
 .services-first-child-box p {
-  align-self: flex-end;
+  padding-top: 4%;
 }
 
 .services-first-small-child {
@@ -175,7 +175,7 @@
   .services-first-child {
     width: 280px;
     height: 650px;
-    font-size: 15px;
+    font-size: small;
   }
 
   .services-first-popular {
@@ -187,12 +187,31 @@
 
 @media (max-width: 1000px) {
   .services-header {
-    margin: 5% 0% 15% 0%;
+    margin: 5% 0% 10% 0%;
     font-size: xx-large;
   }
 
+  .services-first-child {
+    width: 450px;
+    height: 100%;
+  }
+
+  .services-first-popular {
+    top: -15px;
+    left: 155px;
+  }
+
+  .services-first-child-a {
+    padding: 6% 0% 6% 0%;
+  }
+
+
   .services-first-child-a h5 {
-    font-size: xx-large;
+    font-size: x-large;
+  }
+
+  .services-first-child-a p {
+    font-size: x-large;
   }
 
   .services-first-child-a span {
@@ -200,27 +219,28 @@
   }
 
   .services-first-child-b {
-    font-size: medium;
+    font-size: large;
     height: 100%;
   }
 
-  .services-first-child {
-    width: 450px;
-    height: 100%;
-    font-size: 22px;
+  .services-first-child-box img {
+    width: 40px;
   }
 
-  .services-first-popular {
-    top: -25px;
-    left: 155px;
+  .services-first-child-box p {
+    padding-top: 2%;
   }
 
   .services-first-small-child {
     margin: 2%;
     padding: 3%;
     width: 450px;
-    font-size: small;
     border-radius: 10px;
+    font-size: medium;
+  }
+
+  .services-first-small-child h5 {
+    margin-bottom: 5%;
   }
 
   .services-second {
@@ -242,8 +262,16 @@
   }
 
   .services-first-popular {
-    top: -25px;
+    top: -15px;
     left: 120px;
+  }
+
+  .services-first-child-a p {
+    font-size: large;
+  }
+
+  .services-first-child-a h5 {
+    font-size: 22px;
   }
 
   .services-first-small-child {
@@ -270,15 +298,10 @@
   }
 
   .services-first-popular {
-    top: -30px;
     left: 100px;
   }
 
   .services-first-small-child {
     width: 350px;
-  }
-
-  .services-first-child-box img {
-    width: 30px;
   }
 }

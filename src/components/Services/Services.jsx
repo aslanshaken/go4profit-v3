@@ -152,7 +152,6 @@ export default function Services() {
           <h3>Frequently Asked Questions</h3>
           <p>More FAQs</p>
         </div>
-        <div>
         <Accordion>
           <Accordion.Item className='services-third-item' eventKey="0">
             <Accordion.Header>Will Go4Profit file my personal taxes?</Accordion.Header>
@@ -191,7 +190,6 @@ export default function Services() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        </div>
       </div>
     </div>
   )
