@@ -20,3 +20,8 @@
 .active {
   border-bottom: 1px solid #41635C;
 }
+
+.header-container {
+  font-weight: 700;
+  font-size: 17px;
+}

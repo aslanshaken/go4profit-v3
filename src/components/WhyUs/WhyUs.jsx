@@ -30,12 +30,13 @@ import QBO from '../../assets/QBO.png';
 import Shopify from '../../assets/Shopify.png';
 import Gusto from '../../assets/Gusto.png';
 import Hand from '../../assets/hand.png';
+import Card from 'react-bootstrap/Card';
 
 
 
 export default function WhyUs() {
   return(
-    <div className='whyus-container'>
+    <>
       <h4 className='whyus-header-h4'>Why Choose Our Online Accountancy Services?</h4>
       <br/>
       <h5 className='whyus-header-h5'>
@@ -43,46 +44,53 @@ export default function WhyUs() {
          solutions and online accounting excellence
       </h5>
       <div className='whyus-first'>
-        <div className='whyus-first-child'>
-          <img alt='partnerships' src={Partnerships} />
-          <p>Peace Of Mind</p>
-          <p className='whyus-first-p'>
+        <Card className='whyus-first-child'>
+          <Card.Img variant="top" src={Partnerships} />
+          <Card.Body>
+            <Card.Title>Peace Of Mind</Card.Title>
+            <Card.Text>
             Our professional bookkeepers are 
             trained in error-free data entry,
             so you can be confident in the 
             figures they produce.
-          </p>
-        </div>
-        <div className='whyus-first-child'>
-          <img alt='partnerships' src={S1} />
-          <p>We Are Remote But We Don’t Outsource</p>
-          <p className='whyus-first-p'>
-          We are your trusted remote advisors committed 
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className='whyus-first-child'>
+          <Card.Img variant="top" src={S1} />
+          <Card.Body>
+            <Card.Title>We Are Remote But We Don’t Outsource</Card.Title>
+            <Card.Text>
+            We are your trusted remote advisors committed 
           to your financial needs. We don’t outsource 
           our work, rather we source talent from around
           the globe to hire the best team who are 100%
           under control.
-          </p>
-        </div>
-        <div className='whyus-first-child'>
-          <img alt='partnerships' src={Illustration} />
-          <p>Accurate Financial Reporting</p>
-          <p className='whyus-first-p'>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className='whyus-first-child'>
+          <Card.Img variant="top" src={Illustration} />
+          <Card.Body>
+            <Card.Title>Accurate Financial Reporting</Card.Title>
+            <Card.Text>
             We produce accurate figures & provide financial 
             advice that enables you to make insightful
             business decisions and thrive. 
-          </p>
-        </div>
-        <div className='whyus-first-child'>
-          <img alt='partnerships' src={Calculator} />
-          <p>Cost-Effective</p>
-          <p className='whyus-first-p'>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className='whyus-first-child'>
+          <Card.Img variant="top" src={Calculator} />
+          <Card.Body>
+            <Card.Title>Cost-Effective</Card.Title>
+            <Card.Text>
             Our packages will provide you with more efficient
             and profitable results than accounting services 
             with billable hours. 
-          </p>
-        </div>
-
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </div>
       <h4 className='whyus-easy-header'>Easy Process</h4>
       <div className='whyus-second'>
@@ -92,7 +100,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img1' alt='1' src={Img1}/>
           </div>
           <div className='whyus-second-child-b'>
-            <p>Virtual Meeting</p>
+            <p><strong>Virtual Meeting</strong></p>
             <p>
               Our CEO will set up a meeting 
               with you to better understand 
@@ -107,7 +115,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img1' alt='1' src={Img2}/>
           </div>
           <div className='whyus-second-child-b'>
-            <p>Free Consultation</p>
+            <p><strong>Free Consultation</strong></p>
             <p>
               After reviewing your books we will advise 
               you with the best financial solutions 
@@ -122,12 +130,12 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img1' alt='1' src={Img3}/>
           </div>
           <div className='whyus-second-child-b'>
-            <p>Pricing</p>
+            <p><strong>Pricing</strong></p>
             <p>
-             You deserve to know what you are paying
-             for and we will make sure to educate 
-             you on which services your business 
-             requires and which do not.
+            You deserve to know what you are paying
+            for and we will make sure to educate 
+            you on which services your business 
+            requires and which do not.
             </p>
           </div>
         </div>
@@ -137,7 +145,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img1' alt='1' src={Img4}/>
           </div>
           <div className='whyus-second-child-b'>
-            <p>Approval</p>
+            <p><strong>Approval</strong></p>
             <p>
               On the approval of our proposal and 
               signing the contract, we will ask you 
@@ -152,7 +160,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img1' alt='1' src={Img5}/>
           </div>
           <div className='whyus-second-child-b'>
-            <p>Dedicated Team</p>
+            <p><strong>Dedicated Team</strong></p>
             <p>
               Our CEO will set up a meeting 
               with you to better understand 
@@ -167,7 +175,7 @@ export default function WhyUs() {
             <img className='whyus-second-child-a-img1' alt='1' src={Img6}/>
           </div>
           <div className='whyus-second-child-b'>
-            <p>Long-Term Planning</p>
+            <p> <strong>Long-Term Planning</strong></p>
             <p>
               Your dedicated team, who are fully under 
               CEO’s control, will be responsible for
@@ -179,7 +187,7 @@ export default function WhyUs() {
           </div>
         </div>
       </div>
-      <h4 className='whyus-header-h5'>
+      <h4 className='whyus-third-header'>
       We have created a streamlined & startup-friendly process to get a quote fast and easy!
       </h4>
       <div className='whyus-third'>
@@ -251,6 +259,6 @@ export default function WhyUs() {
           <img alt='badge' src={Gusto} />
         </div>
       </div>
-    </div>
+    </>
   )
 }
