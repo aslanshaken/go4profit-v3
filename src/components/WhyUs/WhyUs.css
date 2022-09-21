@@ -24,6 +24,7 @@
 }
 
 .whyus-first-child {
+  text-align: center;
   padding: 2%;
   width: 400px;
   background-color: #505050;
@@ -227,10 +228,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .whyus-first-child img {
-    height: 150px;
-  }
-
   .whyus-forth {
     grid-template-columns: 100%;
     gap: 2em;
@@ -263,8 +260,12 @@
   }
 
   .whyus-first-child {
-    width: 100%;
     margin: 5%;
+    width: auto;
+  }
+
+  .whyus-first-child img {
+    max-width: fit-content !important;
   }
 
   .whyus-first-p {

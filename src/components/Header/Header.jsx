@@ -20,7 +20,6 @@ function Header() {
           <Nav className="flex-grow-1 justify-content-center align-items-center ">
             <Nav.Link href="/" className={path === '/' && 'active'} >Home</Nav.Link>
             <Nav.Link href="/about" className={path === '/about' && 'active'}>About us</Nav.Link>
-            {/* <Nav.Link href="/why-us" className={path === '/why-us' && 'active'}>Why us</Nav.Link> */}
             <Nav.Link href="/services" className={path === '/services' && 'active'}>Services</Nav.Link>
             <Nav.Link href="/join-us" className={path === '/join-us' && 'active'}>Join us</Nav.Link>
             <Nav.Link className="mv-button-right">

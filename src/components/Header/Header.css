@@ -2,6 +2,8 @@
   background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
   border-radius: 40px;
   border: none;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .logo-img {
