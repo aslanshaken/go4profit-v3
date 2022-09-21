@@ -17,9 +17,9 @@ export default function About() {
     <div className='about-container'>
       <div className='about-first'>
         <img className='about-first-img' alt='eclipse' src={Eclipse} />
-        <h2>About Go4Profit</h2>
+        <h1>About Go<span>4</span>Profit</h1>
         <p className='about-first-paragraph'>
-          We make business world better 
+          <span>W</span>e make business world better 
           by making business owners more 
           educated in their finances. We 
           turn numbers into words and show 
@@ -33,16 +33,12 @@ export default function About() {
           language to help them to make well-informed 
           future choices.
         </p>
-        <div className='get-in-touch-main-button'>
-          <Button variant="success" className="get-in-touch-button">Get in touch</Button>{''}
-        </div>
-        <p className='about-overflow-txt'>ABOUT GO4PROFIT</p>
+        <Button variant="success" className="get-in-touch-button">Get in touch</Button>{''}
       </div>
-      <div className='about-space'></div>
+      <p className='why-overflow-txt'>Why us?</p>
       <div className='about-second'>
         <div className='about-second-a'>
-        <h3>Why us ?</h3>
-        <h5>Skilled bookkeeping experts</h5>
+        <h3>Skilled bookkeeping experts</h3>
         <br/>
         <p>It’s hard enough to find a good bookkeeper, 
           let alone ones who understand your product and 
@@ -57,32 +53,32 @@ export default function About() {
         <img alt='ima' src={FirstImage}/>
       </div>
       <div className='about-third'>
-        <div>
+        <div className='about-third-a'>
         <h2>Industry and technical expertise</h2>
         <p>Deep expertise in the bookkeeping technology market</p>
         </div>
-        <div className='about-third-c'>
-          <div className='about-third-c-card'>
+        <div className='about-third-b'>
+          <div className='about-third-b-card'>
             <img alt='vector' src={Vector} />
             <p>Growth</p>
           </div>
-          <div className='about-third-c-card'>
+          <div className='about-third-b-card'>
             <img alt='vector' src={Vector1} />
             <p>Personal</p>
           </div>
-          <div className='about-third-c-card'>
+          <div className='about-third-b-card'>
             <img alt='vector' src={Vector3} />
             <p>Safety</p>
           </div>
-          <div className='about-third-c-card'>
+          <div className='about-third-b-card'>
             <img alt='vector' src={Vector4} />
             <p>Dedicated team</p>
           </div>
-          <div className='about-third-c-card'>
+          <div className='about-third-b-card'>
             <img alt='vector' src={Vector5} />
             <p>Cost-effective</p>
           </div>
-          <div className='about-third-c-card'>
+          <div className='about-third-b-card'>
             <img alt='vector' src={Vector7} />
             <p>Hardware</p>
           </div>
