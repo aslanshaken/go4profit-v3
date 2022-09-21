@@ -87,6 +87,7 @@ export default function Home(){
           </p>
         </div>
       </div>
+      <Button variant="success" className="home-contact-button">Contact now</Button>{' '}
     </div>
   )
 }

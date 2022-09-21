@@ -265,7 +265,8 @@
   }
 
   .whyus-first-child img {
-    max-width: fit-content !important;
+    height: fit-content;
+    width: 160px;
   }
 
   .whyus-first-p {
