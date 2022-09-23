@@ -35,14 +35,16 @@ export default function About() {
         </p>
         <Button variant="success" className="get-in-touch-button">Get in touch</Button>{''}
       </div>
-      <p className='why-overflow-txt'>Why us?</p>
       <div className='about-second'>
         <div className='about-second-a'>
-        <h3>Skilled bookkeeping experts</h3>
+        <h3>Skilled Bookkeeping Experts</h3>
         <br/>
-        <p>It’s hard enough to find a good bookkeeper, 
+        <p><span>It’s hard enough to find a good bookkeeper, 
           let alone ones who understand your product and 
-          market. We bring qualified bookkeeping experts 
+          market.</span> 
+          <br/>
+          <br/>
+          We bring qualified bookkeeping experts 
           to the table who can hit every angle—technical 
           datasheets, innovative white papers, 
           TechCrunch-worthy articles, snappy ad copy, 
@@ -85,9 +87,8 @@ export default function About() {
         </div>
       </div>
       <div className='about-forth'>
-        <img alt='ima' src={Finance}/>
         <div className='about-forth-a'>
-        <h3>Focused on growth</h3>
+        <h3 class="hr-text" data-content="Focused on growth"></h3>
         <br/>
         <p>We don’t believe in ad hoc marketing that can’t 
           deliver real results. Our approach to every project 
@@ -99,7 +100,6 @@ export default function About() {
            you put them in place.
         </p>
         </div>
-        <p className='about-overflow-txt'>LEADERSHIP</p>
       </div>
       <div className='about-space'></div>
       <div className='about-fifth'>
