@@ -91,7 +91,7 @@ export default function JoinUs() {
       </div>
       </div>
       <p className='joinus-simpler-header'>Bookkeeping becomes simpler with us</p>
-      <Button variant="success" className="joinus-button">Join now</Button>{' '}
+      <Button href="/book-a-call" variant="success" className="joinus-button">Join now</Button>{' '}
       <p className='joinus-perks-header'>Perks</p>
       <div className='joinus-perks'>
         <div className='joinus-perks-child'>
@@ -175,7 +175,7 @@ export default function JoinUs() {
           </form>
         </div>
       </div>
-      {received && <p>Thank you! We have received your information.</p>}
+      {received && <h5>Thank you! We have received your information.</h5>}
     </div>
   )
 }

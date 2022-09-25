@@ -33,7 +33,7 @@ export default function About() {
           language to help them to make well-informed 
           future choices.
         </p>
-        <Button variant="success" className="get-in-touch-button">Get in touch</Button>{''}
+        <Button href="/book-a-call" variant="success" className="get-in-touch-button">Get in touch</Button>{''}
       </div>
       <div className='about-overflow'>
         <h1 className='about-txt-overflow'>Go4Profit Go4Profit</h1>
@@ -138,7 +138,7 @@ export default function About() {
           <br/>
           <h4>We Make Your Business Easy And Your Live Easier.</h4>
           <br/>
-          <Button variant="success" className="about-contact-button">Contact</Button>{''}
+          <Button href="/book-a-call" variant="success" className="about-contact-button">Contact</Button>{''}
         </div>
       </div>
     </div>

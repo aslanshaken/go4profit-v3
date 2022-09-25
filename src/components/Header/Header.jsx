@@ -22,7 +22,7 @@ function Header() {
             <Nav.Link href="/about" className={path === '/about' && 'active'}>About us</Nav.Link>
             <Nav.Link href="/services" className={path === '/services' && 'active'}>Services</Nav.Link>
             <Nav.Link href="/join-us" className={path === '/join-us' && 'active'}>Join us</Nav.Link>
-            <Nav.Link className="mv-button-right">
+            <Nav.Link href="/book-a-call" className="mv-button-right">
               <Button className="call-button">Request a call</Button>
             </Nav.Link>
           </Nav>

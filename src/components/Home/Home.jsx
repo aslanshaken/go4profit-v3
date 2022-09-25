@@ -36,7 +36,7 @@ export default function Home(){
             <p>CFO services for better financial strategy</p>
           </div>
           <div className='quote-button-main'>
-            <Button variant="success" className="quote-button">Get an instant quote</Button>{' '}
+            <Button href="/book-a-call" variant="success" className="quote-button">Get an instant quote</Button>{' '}
           </div>
         </div>
         <div className='home-first-b'>
@@ -87,7 +87,7 @@ export default function Home(){
           </p>
         </div>
       </div>
-      <Button variant="success" className="home-contact-button">Contact now</Button>{' '}
+      <Button href="/book-a-call" variant="success" className="home-contact-button">Contact now</Button>{' '}
     </div>
   )
 }

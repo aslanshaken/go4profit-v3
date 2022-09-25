@@ -1,0 +1,21 @@
+.book-call-container {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: #F8F9FA;
+}
+
+#calendly {
+  height: 800px;
+}
+
+
+@media (max-width: 1115px) {
+  #calendly {
+    height: 1200px;
+  }
+}
