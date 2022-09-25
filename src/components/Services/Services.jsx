@@ -12,10 +12,13 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function Services() {
   return(
     <div className='services-container'>
-      <h3 className='services-header'>Businesses we serve</h3>
+      <h2 className='services-header'>Businesses we serve</h2>
+      <h5 className='services-paragraph'>We have a big team of professionals who have 5+ experience 
+        in each industry. Each of them can do several types of 
+        financial analysis such as benchmarking, ratio, trend etc.
+      </h5>
       <div className='services-first'>
         <div className='services-first-child'>
-          <div className='services-first-popular'> Most Popular</div>
           <div className='services-first-child-a'>
             <h5>StartUP</h5>
             <p>Bookkeeping powered by real humans</p>
@@ -53,8 +56,9 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className='services-first-child'>
+        <div className='services-first-child services-bigger'>
           <div className='services-first-child-a'>
+            <div className='services-first-popular'> Most Popular</div>
             <h5>Standard</h5>
             <p>Taxes and bookkeeping done for you.</p>
             <p><span>$460</span> /mo</p>
@@ -165,7 +169,7 @@ export default function Services() {
               culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item className='services-third-item' eventKey="1">
             <Accordion.Header>What type of bookkeeping does Go4Profit offer?</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -177,7 +181,7 @@ export default function Services() {
               culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2">
+          <Accordion.Item className='services-third-item' eventKey="2">
             <Accordion.Header>How does Go4Profit do my business bookkeeping?</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

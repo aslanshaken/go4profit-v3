@@ -13,6 +13,15 @@
 .services-header {
   border-bottom: 3px solid #41635C;
   margin: 0% 0% 5% 0%;
+  font-weight: 700;
+}
+
+.services-paragraph {
+  margin: 0% 0% 5% 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 500;
+  text-align: center;
 }
 
 /* FIRST */
@@ -31,7 +40,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2%;
+  margin: 1%;
   width: 320px;
   height: 680px;
   border-radius: 10px;
@@ -48,7 +57,7 @@
   color: rgb(248, 237, 237);
   width: 180px;
   top: -15px;
-  left: 70px;
+  left: 110px;
 }
 
 .start-button {
@@ -57,7 +66,6 @@
   border: none;
   padding: 1% 5% 1% 5%;
 }
-
 
 .services-first-child-a {
   display: flex;
@@ -71,13 +79,15 @@
 
 .services-first-child-a span {
   color: #41635C;
-  font-size: x-large;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .services-first-child-a h5 {
-  font-size: large;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 700;
+  color: #505050;
+  text-transform: uppercase;
 }
 
 .services-first-child-b {
@@ -91,7 +101,6 @@
   grid-template-columns: 15% 85%;
   padding: 0% 2% 0% 2%;
 }
-
 
 .services-first-child-box img {
   width: 35px;
@@ -115,18 +124,26 @@
   border-radius: 10px;
 }
 
-
 .services-first-small-child h5 {
   border-bottom: 3px solid #41635C;
   margin-bottom: 10%;
 }
-
 
 .book-button {
   background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
   border-radius: 40px;
   border: none;
   padding: 1% 10% 1% 10%;
+}
+
+.services-bigger {
+  width: 400px;
+  height: 700px;
+  font-size: larger;
+}
+
+.services-bigger h5 {
+  font-size: 35px;
 }
 
 /* SECOND */
@@ -183,22 +200,33 @@
     top: -15px;
     left: 70px;
   }
+
+  .services-bigger {
+    width: 400px;
+    height: 700px;
+    font-size: larger;
+  }
+
+  .services-bigger h5 {
+    font-size: 35px;
+  }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1065px) {
   .services-header {
     margin: 5% 0% 10% 0%;
     font-size: xx-large;
   }
 
   .services-first-child {
-    width: 450px;
+    width: 550px;
     height: 100%;
+    margin: 5%;
   }
 
   .services-first-popular {
-    top: -15px;
-    left: 155px;
+    top: -20px;
+    left: 200px;
   }
 
   .services-first-child-a {
@@ -262,8 +290,8 @@
   }
 
   .services-first-popular {
-    top: -15px;
-    left: 120px;
+    top: -25px;
+    left: 130px;
   }
 
   .services-first-child-a p {
@@ -298,7 +326,7 @@
   }
 
   .services-first-popular {
-    left: 100px;
+    left: 95px;
   }
 
   .services-first-small-child {
