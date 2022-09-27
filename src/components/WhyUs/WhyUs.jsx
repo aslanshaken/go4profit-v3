@@ -27,7 +27,7 @@ import BBL from '../../assets/BBL-badge.png';
 import Financial from '../../assets/Financial-analysis.png';
 import QBOAdvanced from '../../assets/QBO-Advanced.png';
 import QBO from '../../assets/QBO.png';
-import Shopify from '../../assets/Shopify.png';
+import Shopify from '../../assets/Gold-certification.png';
 import Gusto from '../../assets/Gusto.png';
 import Hand from '../../assets/hand.png';
 import Card from 'react-bootstrap/Card';

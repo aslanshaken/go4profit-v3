@@ -30,7 +30,7 @@
 }
 
 .about-first span {
-  color: #41635C;
+  color: #548178;
 }
 
 .about-first-img {
@@ -180,11 +180,6 @@
   text-transform: uppercase;
 }
 
-.about-txt-center {
-  font-weight: 700;
-  margin-bottom: 10%;
-}
-
 .about-fifth {
   background-color: #505050;
   display: grid;
@@ -213,8 +208,9 @@
   font-size: large;
 }
 
-.about-fifth-b span {
+.about-fifth-center {
   font-weight: 700;
+  text-align: center !important;
 }
 
 .about-contact-button {

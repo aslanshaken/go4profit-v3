@@ -113,30 +113,35 @@ export default function About() {
       <div className='about-fifth'>
         <img alt='ava' src={Ava}/>
         <div className='about-fifth-b'>
-        <h2 className='about-txt-center'>Leadership</h2>
-          <p><span>I am thrilled that you found 
-            my site! I'm Amy, CEO of Go4Profit
-            Bookkeeping Services and the one 
+          <p className='about-fifth-center'>I'm Amy, CEO of Go4Profit
+           and the one 
             you'll be working closely with.
               I am a trusted partner to my 
               clients because I always treat
-              their business as my own. </span>
-          </p>
-          <p>
-          I know how hard it is for a business
-           owner to carry all the weight and 
-           perform multiple tasks at the same time. 
-           You started your business because you are
-            passionate about your customers, not
-             managing your own books, so let me 
-             do it for you. I not only want to 
-             help you be more organized, but I 
-             also want to help you and your business 
-             grow and help gain control over your 
-             finances.
+              their business as my own.
           </p>
           <br/>
-          <h4>We Make Your Business Easy And Your Live Easier.</h4>
+          <p>
+          I have seen plenty of business owners trying to
+           gather their finances in a hurry to make sure they
+            don’t miss tax filing deadlines. One of the biggest 
+            misconceptions is that business needs to have the 
+            books done just for taxes. In fact, knowing how 
+            to read your financial statements could lead you 
+            to a more prosperous and profitable entity. You want to 
+            partner with a bookkeeper that would understand your 
+            business needs, someone you could brainstorm ideas and 
+            consult with, share your concerns and success. I can 
+            help you stay in control of your numbers!
+
+            When I partner with my clients it is a 
+            professional commitment that brings value. 
+            I record transactions, hold meetings to discuss 
+            the financial reports, make suggestions by providing 
+            honest feedback, come up with profitability and budgeting
+             strategies and create a useful system for your business.
+          </p>
+          <br/>
           <br/>
           <Button href="/book-a-call" variant="success" className="about-contact-button">Contact</Button>{''}
         </div>

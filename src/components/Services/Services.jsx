@@ -13,7 +13,7 @@ export default function Services() {
   return(
     <div className='services-container'>
       <h2 className='services-header'>Businesses we serve</h2>
-      <h5 className='services-paragraph'>We have a big team of professionals who have 5+ experience 
+      <h5 className='services-paragraph'>We have a big team of professionals who have 10+ experience 
         in each industry. Each of them can do several types of 
         financial analysis such as benchmarking, ratio, trend etc.
       </h5>
@@ -22,13 +22,13 @@ export default function Services() {
           <div className='services-first-child-a'>
             <h5>StartUP</h5>
             <p>Bookkeeping powered by real humans</p>
-            <p><span>$310</span> /mo</p>
+            <p><span>$420</span> /mo</p>
             <Button href="/book-a-call" variant="success" className="start-button">Start free trial</Button>{' '}
           </div>
           <div className='services-first-child-b'>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
-              <p>Account set up and monthly subscription in QBO</p>
+              <p>Account set up in QBO</p>
             </div>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
@@ -50,24 +50,20 @@ export default function Services() {
               <img alt='check' src={Checkbox} />
               <p>Monthly video analysis of your financial reports</p>
             </div>
-            <div className='services-first-child-box'>
-              <img alt='check' src={Checkbox} />
-              <p>No contract (30 days notice required to cancel)</p>
-            </div>
           </div>
         </div>
         <div className='services-first-child services-bigger'>
           <div className='services-first-child-a'>
             <div className='services-first-popular'> Most Popular</div>
             <h5>Standard</h5>
-            <p>Taxes and bookkeeping done for you.</p>
-            <p><span>$460</span> /mo</p>
+            <p>Bookkeeping and CFO analysis done for you</p>
+            <p><span>$630</span> /mo</p>
             <Button href="/book-a-call" variant="success" className="start-button">Start free trial</Button>{' '}
           </div>
           <div className='services-first-child-b'>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
-              <p>Account set up and monthly subscription in QBO</p>
+              <p>Account set up in QBO</p>
             </div>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
@@ -88,10 +84,8 @@ export default function Services() {
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly video analysis of your financial reports</p>
-            </div>
-            <div className='services-first-child-box'>
-              <img alt='check' src={Checkbox} />
-              <p>No contract (30 days notice required to cancel)</p>
+          
+            
             </div>
           </div>
         </div>
@@ -99,17 +93,21 @@ export default function Services() {
           <div className='services-first-child-a'>
             <h5>Premium</h5>
             <p>Hire Us, Worry Less And Thrive More!</p>
-            <p><span>$660</span> /mo</p>
+            <p><span>$1050</span> /mo</p>
             <Button href="/book-a-call" variant="success" className="start-button">Start free trial</Button>{' '}
           </div>
           <div className='services-first-child-b'>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
-              <p>Account set up and monthly subscription in QBO</p>
+              <p>Account set up in QBO</p>
             </div>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
-              <p>Monthly recording, classifying and reconciling of up to 5 bank/credit card accounts</p>
+              <p>Monthly recording, classifying and reconciling of up to 6 bank/credit card accounts</p>
+            </div>
+            <div className='services-first-child-box'>
+              <img alt='check' src={Checkbox} />
+              <p>Up to 500 transactions</p>
             </div>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
@@ -121,11 +119,7 @@ export default function Services() {
             </div>
             <div className='services-first-child-box'>
               <img alt='check' src={Checkbox} />
-              <p>Monthly video analysis of your financial reports OR monthly video call to chat face-to-face</p>
-            </div>
-            <div className='services-first-child-box'>
-              <img alt='check' src={Checkbox} />
-              <p>No contract (30 days notice required to cancel)</p>
+              <p>Monthly video analysis of your financial reports</p>
             </div>
           </div>
         </div>
