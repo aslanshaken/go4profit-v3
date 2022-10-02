@@ -37,14 +37,14 @@ import Card from 'react-bootstrap/Card';
 export default function WhyUs() {
   return(
     <>
-      <h4 className='whyus-header-h4'>Why Choose Our Online Accountancy Services?</h4>
+      <h4 className='whyus-header-h4 reveal'>Why Choose Our Online Accountancy Services?</h4>
       <br/>
-      <h5 className='whyus-header-h5'>
+      <h5 className='whyus-header-h5 reveal'>
          We are devoted to providing you with an outstanding level of financial
          solutions and online accounting excellence
       </h5>
       <div className='whyus-first'>
-        <Card className='whyus-first-child'>
+        <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={Partnerships} />
           <Card.Body>
             <Card.Title>Peace Of Mind</Card.Title>
@@ -56,7 +56,7 @@ export default function WhyUs() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className='whyus-first-child'>
+        <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={S1} />
           <Card.Body>
             <Card.Title>We Are Remote But We Don’t Outsource</Card.Title>
@@ -69,7 +69,7 @@ export default function WhyUs() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className='whyus-first-child'>
+        <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={Illustration} />
           <Card.Body>
             <Card.Title>Accurate Financial Reporting</Card.Title>
@@ -80,7 +80,7 @@ export default function WhyUs() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className='whyus-first-child'>
+        <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={Calculator} />
           <Card.Body>
             <Card.Title>Cost-Effective</Card.Title>
@@ -92,9 +92,9 @@ export default function WhyUs() {
           </Card.Body>
         </Card>
       </div>
-      <h4 className='whyus-easy-header'>Easy Process</h4>
+      <h4 className='whyus-easy-header reveal'>Easy Process</h4>
       <div className='whyus-second'>
-        <div className='whyus-second-child'>
+        <div className='whyus-second-child reveal'>
           <div className='whyus-second-child-a'>
             <img className='whyus-second-child-a-img2' alt='vec' src={Vec18} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img1}/>
@@ -109,7 +109,7 @@ export default function WhyUs() {
             </p>
           </div>
         </div>
-        <div className='whyus-second-child'>
+        <div className='whyus-second-child reveal'>
           <div className='whyus-second-child-a'>
             <img className='whyus-second-child-a-img2' alt='vec' src={Communication} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img2}/>
@@ -124,7 +124,7 @@ export default function WhyUs() {
             </p>
           </div>
         </div>
-        <div className='whyus-second-child'>
+        <div className='whyus-second-child reveal'>
           <div className='whyus-second-child-a'>
             <img className='whyus-second-child-a-img2' alt='vec' src={Money} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img3}/>
@@ -139,7 +139,7 @@ export default function WhyUs() {
             </p>
           </div>
         </div>
-        <div className='whyus-second-child'>
+        <div className='whyus-second-child reveal'>
           <div className='whyus-second-child-a'>
             <img className='whyus-second-child-a-img2' alt='vec' src={Trust} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img4}/>
@@ -154,7 +154,7 @@ export default function WhyUs() {
             </p>
           </div>
         </div>
-        <div className='whyus-second-child'>
+        <div className='whyus-second-child reveal'>
           <div className='whyus-second-child-a'>
             <img className='whyus-second-child-a-img2' alt='vec' src={Communitty} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img5}/>
@@ -169,7 +169,7 @@ export default function WhyUs() {
             </p>
           </div>
         </div>
-        <div className='whyus-second-child'>
+        <div className='whyus-second-child reveal'>
           <div className='whyus-second-child-a'>
             <img className='whyus-second-child-a-img2' alt='vec' src={Grow} />
             <img className='whyus-second-child-a-img1' alt='1' src={Img6}/>
@@ -187,11 +187,11 @@ export default function WhyUs() {
           </div>
         </div>
       </div>
-      <h4 className='whyus-third-header'>
+      <h4 className='whyus-third-header reveal'>
       We have created a streamlined & startup-friendly process to get a quote fast and easy!
       </h4>
       <div className='whyus-third'>
-        <div className='whyus-third-child'>
+        <div className='whyus-third-child reveal'>
           <img alt='application' src={Application} />
           <p className='whyus-third-child-w'>1 week</p>
           <div className='whyus-third-child-box'>
@@ -201,7 +201,7 @@ export default function WhyUs() {
           <p className='whyus-third-child-p'>Diligance & Selection</p>
         </div>
         <div className='whyus-third-border'></div>
-        <div className='whyus-third-child'>
+        <div className='whyus-third-child reveal'>
           <img alt='application' src={Sign} />
           <p className='whyus-third-child-w'>3-6 weeks</p>
           <div className='whyus-third-child-box'>
@@ -211,7 +211,7 @@ export default function WhyUs() {
           <p className='whyus-third-child-p'>Onboarding</p>
         </div>
         <div className='whyus-third-border'></div>
-        <div className='whyus-third-child'>
+        <div className='whyus-third-child reveal'>
           <img alt='application' src={Launch} />
           <p className='whyus-third-child-w'>2-3 month</p>
           <div className='whyus-third-child-box'>
@@ -221,7 +221,7 @@ export default function WhyUs() {
           <p className='whyus-third-child-p'>Compaign live</p>
         </div>
         <div className='whyus-third-border'></div>
-        <div className='whyus-third-child'>
+        <div className='whyus-third-child reveal'>
           <img alt='application' src={Alumni} />
           <p className='whyus-third-child-w'>Until Exit</p>
           <div className='whyus-third-child-box'>
@@ -231,9 +231,9 @@ export default function WhyUs() {
           <p className='whyus-third-child-p'>Support</p>
         </div>
       </div>
-      <h4 className='whyus-easy-header'>Certifications</h4>
+      <h4 className='whyus-easy-header reveal'>Certifications</h4>
       <div className='whyus-forth'>
-        <div className='whyus-forth-a'>
+        <div className='whyus-forth-a reveal'>
           <h4>You're in good hands</h4>
           <p>
             We are nationally certified financial advisors
@@ -247,10 +247,10 @@ export default function WhyUs() {
             from trusted professional institutes.
           </p>
         </div>
-        <div className='whyus-forth-b'>
+        <div className='whyus-forth-b reveal'>
           <img alt='badge' src={Hand} />
         </div>
-        <div className='whyus-forth-c'>
+        <div className='whyus-forth-c reveal'>
           <img alt='badge' src={BBL} />
           <img alt='badge' src={Financial} />
           <img alt='badge' src={QBOAdvanced} />

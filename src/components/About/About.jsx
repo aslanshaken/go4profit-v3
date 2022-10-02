@@ -36,10 +36,10 @@ export default function About() {
         <Button href="/book-a-call" variant="success" className="get-in-touch-button">Get in touch</Button>{''}
       </div>
       <div className='about-overflow'>
-        <h1 className='about-txt-overflow'>Go4Profit Go4Profit</h1>
+        <h1 className='about-txt-overflow reveal'>Go4Profit Go4Profit</h1>
       </div>
       <div className='about-second'>
-        <div className='about-second-a'>
+        <div className='about-second-a reveal'>
         <h3>Why Us?</h3>
         <br/>
         <h5>Skilled Bookkeeping Experts</h5>
@@ -57,14 +57,14 @@ export default function About() {
           into concrete, lead-generating content pieces.
         </p>
         </div>
-        <img alt='ima' src={FirstImage}/>
+        <img alt='ima' className='reveal' src={FirstImage}/>
       </div>
       <div className='about-third'>
-        <div className='about-third-a'>
+        <div className='about-third-a reveal'>
         <h2>Industry and technical expertise</h2>
         <p>Deep expertise in the bookkeeping technology market</p>
         </div>
-        <div className='about-third-b'>
+        <div className='about-third-b reveal'>
           <div className='about-third-b-card'>
             <img alt='vector' src={Vector} />
             <p>Growth</p>
@@ -92,8 +92,8 @@ export default function About() {
         </div>
       </div>
       <div className='about-forth'>
-        <img alt='finance' src={Finance}/>
-        <div className='about-forth-a'>
+        <img alt='finance' className='reveal' src={Finance}/>
+        <div className='about-forth-a reveal'>
         <h3>Focused on growth</h3>
         <br/>
         <p>We don’t believe in ad hoc marketing that can’t 
@@ -108,12 +108,12 @@ export default function About() {
         </div>
       </div>
       <div className='about-overflow'>
-        <h1 className='about-txt-overflow'>Leadership Leadership</h1>
+        <h1 className='about-txt-overflow reveal'>Leadership Leadership</h1>
       </div>
       <div className='about-fifth'>
-        <img alt='ava' src={Ava}/>
-        <div className='about-fifth-b'>
-          <p className='about-fifth-center'>I'm Amy, CEO of Go4Profit
+        <img alt='ava' className='reveal' src={Ava}/>
+        <div className='about-fifth-b reveal'>
+          <p className='about-fifth-center reveal'>I'm Amy, CEO of Go4Profit
            and the one 
             you'll be working closely with.
               I am a trusted partner to my 
@@ -121,7 +121,7 @@ export default function About() {
               their business as my own.
           </p>
           <br/>
-          <p>
+          <p className='reveal'>
           I have seen plenty of business owners trying to
            gather their finances in a hurry to make sure they
             don’t miss tax filing deadlines. One of the biggest 

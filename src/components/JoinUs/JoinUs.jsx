@@ -69,9 +69,9 @@ export default function JoinUs() {
         </div>
         <img alt='Wallp' src={Wallpaper}/>
       </div>
-      <p className='joinus-steps-header'>Joining us is as simple as 1, 2 and 3!</p>
-      <div className='joinus-second'>
-      <div className='joinus-second-child'>
+      <p className='joinus-steps-header reveal'>Joining us is as simple as 1, 2 and 3!</p>
+      <div className='joinus-second reveal'>
+      <div className='joinus-second-child '>
         <img className='joinus-second-child-steps' alt='step' src={Step1} />
         <p className='joinus-second-p'>Register Yourself</p>
         <p>Fill out our online registration form</p>
@@ -90,31 +90,31 @@ export default function JoinUs() {
         <img className='joinus-second-child-dollar' alt='round' src={Dollar} />
       </div>
       </div>
-      <p className='joinus-simpler-header'>Bookkeeping becomes simpler with us</p>
+      <p className='joinus-simpler-header reveal'>Bookkeeping becomes simpler with us</p>
       <Button href="/book-a-call" variant="success" className="joinus-button">Join now</Button>{' '}
-      <p className='joinus-perks-header'>Perks</p>
+      <p className='joinus-perks-header reveal'>Perks</p>
       <div className='joinus-perks'>
-        <div className='joinus-perks-child'>
+        <div className='joinus-perks-child reveal'>
           <p>Flexible hours</p>
           <p>Night owl? Morning person? Work whenever. We judge on result, not presence.</p>
         </div>
-        <div className='joinus-perks-child'>
+        <div className='joinus-perks-child reveal'>
           <p>Flexible PTO</p>
           <p>No limit on vacation. Just let us know in advance and disconnect.</p>
         </div>
-        <div className='joinus-perks-child'>
+        <div className='joinus-perks-child reveal'>
           <p>Top insurance coverage</p>
           <p>100% coverage, no sacrifice. Medical, Dental, Vision — you name it, we got it.</p>
         </div>
-        <div className='joinus-perks-child'>
+        <div className='joinus-perks-child reveal'>
           <p>Meals & Snacks</p>
           <p>We offer free lunches everyday and unlimited snacks to satiate any food craving.</p>
         </div>
       </div>
-      <p className='joinus-contact-header'>Contact us</p>
-      <p className='joinus-contact-paragraph'>Save money and grow exponentially by getting in touch right away!</p>
+      <p className='joinus-contact-header reveal'>Contact us</p>
+      <p className='joinus-contact-paragraph reveal'>Save money and grow exponentially by getting in touch right away!</p>
       <div className='joinus-contact-container'>
-        <div className='joinus-location'>
+        <div className='joinus-location reveal'>
           <div className='joinus-location-context'>
             <h4>We are Here</h4>
             <br/>
@@ -140,7 +140,7 @@ export default function JoinUs() {
             referrerpolicy="no-referrer-when-downgrade">
          </iframe>
         </div>
-        <div className='joinus-contact-form'>
+        <div className='joinus-contact-form reveal'>
           <h3>Get in Touch</h3>
           <h5>Feel free to drop us a line below</h5>
           <form className='joinus-form' onSubmit={(e) => handleCreate(e)}>

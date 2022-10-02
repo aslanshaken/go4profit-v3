@@ -44,14 +44,14 @@ export default function Home(){
         </div>
       </div>
       <div className='home-second'>
-        <h3 className='home-second-header'>We Ensure Your Business Has All The Financial Support It Needs</h3>
-        <h4 className='home-second-paragraph'>Make Better Financial Decisions With Our Expert Advise</h4>
-        <h4 className='home-second-paragraph-mobile'>Make Better Financial Decisions With Our Expert Advise</h4>
+        <h3 className='home-second-header reveal'>We Ensure Your Business Has All The Financial Support It Needs</h3>
+        <h4 className='home-second-paragraph reveal'>Make Better Financial Decisions With Our Expert Advise</h4>
+        <h4 className='home-second-paragraph-mobile reveal'>Make Better Financial Decisions With Our Expert Advise</h4>
       </div>
-      <img className='home-second-image' alt='rd-img' src={SecondPic} />
+      <img className='home-second-image reveal' alt='rd-img' src={SecondPic} />
       <WhyUs/>
-      <h4 className='home-third-header'>What Sets Go<span>4</span>Profit Apart?</h4>
-      <div className='home-third'>
+      <h4 className='home-third-header reveal'>What Sets Go<span>4</span>Profit Apart?</h4>
+      <div className='home-third reveal'>
         <div>
           <img alt='rd-img' src={Talk} />
           <p className='home-third-title' >No to language barriers</p>

@@ -123,21 +123,21 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className='services-first-small-child'>
+        <div className='services-first-small-child reveal'>
           <h5>Clean up services</h5>
           <p>Request quote</p>
           <p>Book a call for custom pricing and packages</p>
           <Button href="/book-a-call" variant="success" className="book-button">Book</Button>{' '}
         </div>
-        <div className='services-first-small-child'>
+        <div className='services-first-small-child reveal'>
           <h5>Catch up services</h5>
           <p>Request quote</p>
           <p>Book a call for custom pricing and packages</p>
           <Button href="/book-a-call" variant="success" className="book-button">Book</Button>{' '}
         </div>
       </div>
-      <h3 className='services-partner-header'>We partner with the world’s best</h3>
-      <div className='services-second'>
+      <h3 className='services-partner-header reveal'>We partner with the world’s best</h3>
+      <div className='services-second reveal'>
         <img alt='services' src={BigCommerce} />
         <img alt='services' src={Stripe} />
         <img alt='services' src={Freshbooks} />
@@ -146,11 +146,11 @@ export default function Services() {
         <img alt='services' src={Square} />
       </div>
       <div className='services-third'>
-        <div className='services-third-a'>
+        <div className='services-third-a reveal'>
           <h3>Frequently Asked Questions</h3>
           <p>More FAQs</p>
         </div>
-        <Accordion>
+        <Accordion className='reveal'>
           <Accordion.Item className='services-third-item' eventKey="0">
             <Accordion.Header>Will Go4Profit file my personal taxes?</Accordion.Header>
             <Accordion.Body>
