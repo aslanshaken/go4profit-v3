@@ -17,26 +17,26 @@ export default function Home(){
     <div className='home-container'>
       <div className='home-first'>
         <div className='home-first-a'>
-          <h1 className='home-header'>We know what is best for turning your business into a <span>legacy</span></h1>
+          <h1 className='home-header'>We help Business Owners to understand their <span>Finance</span> </h1>
           <h5 className='home-title'>Minimize bookkeeping, maximize profit</h5>
           <div className='home-bullet-points'>
             <img alt='rd-img' src={AccountIcon}/>
-            <p>Dedicated accountant for your business </p>
+            <h5>Dedicated accountant for your business </h5>
           </div>
           <div className='home-bullet-points'>
             <img alt='rd-img' src={GlobalIcon}/>
-            <p>Provides services both in the USA and Globally </p>
+            <h5>Provides services both in the USA and Globally </h5>
           </div>
           <div className='home-bullet-points'>
             <img alt='rd-img' src={LanguageIcon}/>
-            <p>For Russian and English Speaking Business Owners</p>
+            <h5>For Russian and English Speaking Business Owners</h5>
           </div>
           <div className='home-bullet-points'>
             <img alt='rd-img' src={GrowIcon}/>
-            <p>CFO services for better financial strategy</p>
+            <h5>CFO services for better financial strategy</h5>
           </div>
           <div className='quote-button-main'>
-            <Button href="/book-a-call" variant="success" className="quote-button">Get an instant quote</Button>{' '}
+            <Button href="/book-a-call" variant="success" className="quote-button"><h5>Get an instant quote</h5></Button>{' '}
           </div>
         </div>
         <div className='home-first-b'>

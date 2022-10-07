@@ -26,38 +26,50 @@
 
 /* FIRST */
 
-.services-first {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  justify-items: center;
   align-items: center;
 }
 
-.services-first-child {
+.services-card {
   background-color: #f5f5f5;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1%;
   width: 320px;
   height: 570px;
   border-radius: 10px;
   position: relative;
 }
 
-.services-first-popular {
-  position: absolute;
+.services-card-popular {
+  background-color: #f5f5f5;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 570px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.services-popular-sign {
   background-color: #DFAB47;
   text-align: center;
   padding: 1%;
   border-radius: 5px;
   font-weight: 600;
   color: rgb(248, 237, 237);
-  width: 180px;
-  top: -20px;
-  left: 110px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: -20px;
 }
 
 .start-button {
@@ -67,31 +79,49 @@
   padding: 1% 5% 1% 5%;
 }
 
-.services-first-child-a {
+.services-card-popular-a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 6%;
-  padding-top: 6%;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 2%;
   border-bottom: 2px solid #41635C;
   width: 100%;
 }
 
-.services-first-child-a span {
-  color: #41635C;
-  font-size: 30px;
-  font-weight: 700;
+.services-card-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  border-bottom: 2px solid #41635C;
+  width: 100%;
 }
 
-.services-first-child-a h5 {
-  font-size: 25px;
+.services-card-popular-a span {
+  color: #41635C;
+}
+
+.services-card-popular-a h4 {
   font-weight: 700;
   color: #505050;
-  text-transform: uppercase;
 }
 
-.services-first-child-b {
+.services-card-a span {
+  color: #41635C;
+}
+
+.services-card-a h4 {
+  font-weight: 700;
+  color: #505050;
+}
+
+.services-card-b {
   font-size: small;
   height: 400px;
   display: flex;
@@ -99,22 +129,31 @@
   justify-content: center;
 }
 
-.services-first-child-box {
+.services-card-box {
   display: grid;
   grid-template-columns: 15% 85%;
   padding: 0% 2% 0% 2%;
 }
 
-.services-first-child-box img {
+.services-card-box img {
   width: 35px;
   align-self: center;
 }
 
-.services-first-child-box p {
+.services-card-box p {
   padding-top: 4%;
 }
 
-.services-first-small-child {
+.services-cards-small {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4em;
+  justify-items: center;
+  align-items: center;
+}
+
+.services-card-small {
   background-color: #f5f5f5;
   color: black;
   display: flex;
@@ -123,13 +162,18 @@
   align-items: center;
   margin: 2%;
   padding: 3%;
-  font-size: small;
   border-radius: 10px;
+  text-align: center;
 }
 
-.services-first-small-child h5 {
+.services-card-small-paragraph {
+  width: 450px;
+  height: 100px;
+}
+
+.services-card-small h5 {
   border-bottom: 3px solid #41635C;
-  margin-bottom: 10%;
+  margin-bottom: 6%;
 }
 
 .book-button {
@@ -191,103 +235,59 @@
   width: 500px;
 }
 
-@media (max-width: 2000px) and (min-width: 1600px) {
-  .services-first-child {
-    width: 380px;
-    height: 600px;
-    font-size: small;
+
+
+@media (max-width: 1150px) {
+  .services-cards {
+    grid-template-columns: 100%;
+    gap: 5em;
   }
 
-  .services-first-popular {
-    width: 150px;
-    top: -25px;
-    left: 170px;
+  .services-card {
+    width: 90%;
+    height: 100%;
   }
 
-  .services-bigger {
-    width: 500px;
-    height: 650px;
-    font-size: larger;
-  }
-}
-
-@media (max-width: 1215px) {
-  .services-first-child {
-    width: 280px;
-    height: 580px;
-    font-size: small;
+  .services-card-popular {
+    width: 90%;
+    height: 100%;
   }
 
-  .services-bigger {
-    width: 400px;
-    height: 630px;
-    font-size: larger;
+  .services-card-popular-a {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
-  .services-bigger h5 {
-    font-size: 35px;
+  .services-card-b {
+    font-size: medium;
+    height: 100%;
   }
-}
 
-@media (max-width: 1065px) {
+  .services-card-box img {
+    width: 45px;
+  }
+
+  .services-card-box p {
+    font-size: large;
+  }
+
+  .services-cards-small {
+    grid-template-columns: 100%;
+    gap: 4em;
+  }
+
+  .services-card-small {
+    width: 80%;
+  }
+
+  .services-card-small-paragraph {
+    width: 100%;
+    height: 100%;
+  }
+
   .services-header {
     margin: 5% 0% 10% 0%;
     font-size: xx-large;
-  }
-
-  .services-first-child {
-    width: 550px;
-    height: 100%;
-    margin: 5%;
-    padding: 3%;
-  }
-
-  .services-first-popular {
-    top: -20px;
-    left: 180px;
-  }
-
-  .services-first-child-a {
-    padding: 6% 0% 6% 0%;
-  }
-
-
-  .services-first-child-a h5 {
-    font-size: x-large;
-  }
-
-  .services-first-child-a p {
-    font-size: x-large;
-  }
-
-  .services-first-child-a span {
-    font-size: xx-large;
-  }
-
-  .services-first-child-b {
-    margin-top: 7%;
-    font-size: large;
-    height: 100%;
-  }
-
-  .services-first-child-box img {
-    width: 40px;
-  }
-
-  .services-first-child-box p {
-    padding-top: 2%;
-  }
-
-  .services-first-small-child {
-    margin: 2%;
-    padding: 3%;
-    width: 450px;
-    border-radius: 10px;
-    font-size: medium;
-  }
-
-  .services-first-small-child h5 {
-    margin-bottom: 5%;
   }
 
   .services-second {
@@ -304,26 +304,6 @@
 }
 
 @media (max-width: 530px) {
-  .services-first-child {
-    width: 400px;
-  }
-
-  .services-first-popular {
-    top: -25px;
-    left: 110px;
-  }
-
-  .services-first-child-a p {
-    font-size: large;
-  }
-
-  .services-first-child-a h5 {
-    font-size: 22px;
-  }
-
-  .services-first-small-child {
-    width: 400px;
-  }
 
   .services-second {
     grid-template-columns: repeat(2, 1fr);
@@ -335,20 +315,5 @@
 
   .services-third-item {
     width: 100%;
-  }
-}
-
-@media (max-width: 460px) {
-
-  .services-first-child {
-    width: 350px;
-  }
-
-  .services-first-popular {
-    left: 75px;
-  }
-
-  .services-first-small-child {
-    width: 350px;
   }
 }

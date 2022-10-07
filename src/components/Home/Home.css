@@ -75,6 +75,7 @@
   border-radius: 40px;
   border: none;
   padding: 2% 5% 2% 5%;
+  white-space: nowrap;
 }
 
 /* Second */
@@ -249,7 +250,7 @@
 
 }
 
-@media (max-width: 560px) {
+@media (max-width: 580px) {
 
   .home-first {
     margin-bottom: 10%;

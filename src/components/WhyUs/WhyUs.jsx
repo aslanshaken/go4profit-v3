@@ -16,12 +16,8 @@ import Communitty from '../../assets/Communitty.png';
 import Trust from '../../assets/Trust.png';
 import Money from '../../assets/Money.png';
 import Application from '../../assets/application.png';
-import Checkbox from '../../assets/checkbox.png';
-import Pen from '../../assets/pen.png';
 import Sign from '../../assets/sign.png';
-import Flag from '../../assets/finish.png';
 import Launch from '../../assets/launch.png';
-import Done from '../../assets/done.png';
 import Alumni from '../../assets/alumni.png';
 import BBL from '../../assets/BBL-badge.png';
 import Financial from '../../assets/Financial-analysis.png';
@@ -193,42 +189,26 @@ export default function WhyUs() {
       <div className='whyus-third'>
         <div className='whyus-third-child reveal'>
           <img alt='application' src={Application} />
-          <p className='whyus-third-child-w'>1 week</p>
-          <div className='whyus-third-child-box'>
-            <img alt='someimg' src={Checkbox} />
-            <p>Application</p>
-          </div>
-          <p className='whyus-third-child-p'>Diligance & Selection</p>
+          <h4 className='whyus-third-child-w'>1. Application</h4>
+          <h5 className='whyus-third-child-p'>Onboarding the client</h5>
         </div>
         <div className='whyus-third-border'></div>
         <div className='whyus-third-child reveal'>
           <img alt='application' src={Sign} />
-          <p className='whyus-third-child-w'>3-6 weeks</p>
-          <div className='whyus-third-child-box'>
-            <img alt='someimg' src={Pen} />
-            <p>Compaign agreement is signed</p>
-          </div>
-          <p className='whyus-third-child-p'>Onboarding</p>
+          <h4 className='whyus-third-child-w'>2. Set up</h4>
+          <h5 className='whyus-third-child-p'>Healthy accounting process</h5>
         </div>
         <div className='whyus-third-border'></div>
         <div className='whyus-third-child reveal'>
           <img alt='application' src={Launch} />
-          <p className='whyus-third-child-w'>2-3 month</p>
-          <div className='whyus-third-child-box'>
-            <img alt='someimg' src={Flag} />
-            <p>Form C filed & compaign launches</p>
-          </div>
-          <p className='whyus-third-child-p'>Compaign live</p>
+          <h4 className='whyus-third-child-w'>3. Habit</h4>
+          <h5 className='whyus-third-child-p'>Recurring review meetings</h5>
         </div>
         <div className='whyus-third-border'></div>
         <div className='whyus-third-child reveal'>
           <img alt='application' src={Alumni} />
-          <p className='whyus-third-child-w'>Until Exit</p>
-          <div className='whyus-third-child-box'>
-            <img alt='someimg' src={Done} />
-            <p>Alumni community</p>
-          </div>
-          <p className='whyus-third-child-p'>Support</p>
+          <h4 className='whyus-third-child-w'>4. Support</h4>
+          <h5 className='whyus-third-child-p'>CFO and Tax strategy advice</h5>
         </div>
       </div>
       <h4 className='whyus-easy-header reveal'>Certifications</h4>

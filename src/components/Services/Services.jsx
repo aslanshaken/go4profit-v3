@@ -13,127 +13,132 @@ export default function Services() {
   return(
     <div className='services-container'>
       <h2 className='services-header'>Businesses we serve</h2>
-      <h5 className='services-paragraph'>We have a big team of professionals who have 10+ experience 
+      <h4 className='services-paragraph'>We have a big team of professionals who have 10+ experience 
         in each industry. Each of them can do several types of 
         financial analysis such as benchmarking, ratio, trend etc.
-      </h5>
-      <div className='services-first'>
-        <div className='services-first-child'>
-          <div className='services-first-child-a'>
-            <h5>StartUP</h5>
+      </h4>
+      <div className='services-cards'>
+        <div className='services-card'>
+          <div className='services-card-a'>
+            <h4>START UP</h4>
             <p>Bookkeeping powered by real humans</p>
-            <p><span>$420</span> /mo</p>
+            <h4><span>$420</span> /mo</h4>
             <Button href="/book-a-call" variant="success" className="start-button">Start free trial</Button>{' '}
           </div>
-          <div className='services-first-child-b'>
-            <div className='services-first-child-box'>
+          <div className='services-card-b'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Account set up in QBO</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly recording, classifying and reconciling of up to 3 bank/credit card accounts</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Up to 125 transactions</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>3 monthly financial reports (given of you in terms that you understand)</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Unlimited email support</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly video analysis of your financial reports</p>
             </div>
           </div>
         </div>
-        <div className='services-first-child services-bigger'>
-          <div className='services-first-child-a'>
-            <div className='services-first-popular'> Most Popular</div>
-            <h5>Standard</h5>
-            <p>Bookkeeping and CFO analysis done for you</p>
-            <p><span>$630</span> /mo</p>
+        <div className='services-card-popular'>
+          <h5 className='services-popular-sign'>Most Popular</h5>
+          <div className='services-card-popular-a'>
+            <h4>STANDARD</h4>
+            <p><bold>Bookkeeping and CFO analysis done for you</bold></p>
+            <h4><span>$630</span> /mo</h4>
             <Button href="/book-a-call" variant="success" className="start-button">Start free trial</Button>{' '}
           </div>
-          <div className='services-first-child-b'>
-            <div className='services-first-child-box'>
+          <div className='services-card-b'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Account set up in QBO</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly recording, classifying and reconciling of up to 4 bank/credit card accounts</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Up to 250 transactions</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>3 monthly financial reports (explained in layman's terms for clarity)</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Unlimited email support</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly video analysis of your financial reports</p>
-          
-            
             </div>
           </div>
         </div>
-        <div className='services-first-child'>
-          <div className='services-first-child-a'>
-            <h5>Premium</h5>
+        <div className='services-card'>
+          <div className='services-card-a'>
+            <h4>PREMIUM</h4>
             <p>Hire Us, Worry Less And Thrive More!</p>
-            <p><span>$1050</span> /mo</p>
+            <h4><span>$1050</span> /mo</h4>
             <Button href="/book-a-call" variant="success" className="start-button">Start free trial</Button>{' '}
           </div>
-          <div className='services-first-child-b'>
-            <div className='services-first-child-box'>
+          <div className='services-card-b'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Account set up in QBO</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly recording, classifying and reconciling of up to 6 bank/credit card accounts</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Up to 500 transactions</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>3 monthly financial reports (explained in layman's terms for clarity)</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Unlimited email support</p>
             </div>
-            <div className='services-first-child-box'>
+            <div className='services-card-box'>
               <img alt='check' src={Checkbox} />
               <p>Monthly video analysis of your financial reports</p>
             </div>
           </div>
         </div>
-        <div className='services-first-small-child reveal'>
-          <h5>Clean up services</h5>
-          <p>Request quote</p>
-          <p>Book a call for custom pricing and packages</p>
-          <Button href="/book-a-call" variant="success" className="book-button">Book</Button>{' '}
+      </div>
+      <div className='services-cards-small'>
+        <div className='services-card-small reveal'>
+            <h5>Clean up services</h5>
+            <p className='services-card-small-paragraph'>Clean up process is when your previous bookkeeper or you were trying to run the bookkeeping, and made a mess. We are here to fix it.</p>
+            <p>Book a call for custom pricing and packages</p>
+            <Button href="/book-a-call" variant="success" className="book-button">Book</Button>{' '}
         </div>
-        <div className='services-first-small-child reveal'>
-          <h5>Catch up services</h5>
-          <p>Request quote</p>
-          <p>Book a call for custom pricing and packages</p>
-          <Button href="/book-a-call" variant="success" className="book-button">Book</Button>{' '}
+        <div className='services-card-small reveal'>
+            <h5>Catch up services</h5>
+            <p className='services-card-small-paragraph'>When you came to us in July (example) and you didn't 
+              do bookkeeping till July, we need to "catch up" with 
+              the bookkeeping you left behind. It's extra work that
+              will give your a clear picture of your business 
+              finance.
+            </p>
+            <p>Book a call for custom pricing and packages</p>
+            <Button href="/book-a-call" variant="success" className="book-button">Book</Button>{' '}
         </div>
       </div>
       <h3 className='services-partner-header reveal'>We partner with the world’s best</h3>
@@ -154,37 +159,29 @@ export default function Services() {
           <Accordion.Item className='services-third-item' eventKey="0">
             <Accordion.Header>Will Go4Profit file my personal taxes?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              No, we only provide bookkeeping services with the advice of a
+              Financial Analyst. We always help our clients by "informing" 
+              them about what kind of Tax Strategies are there, but we don't
+              file the taxes themselves. We are more focused on Growing your 
+              business by helping you to make the right Financial Decisions. 
+              We are leaving all paperwork to CPAs. 
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className='services-third-item' eventKey="1">
-            <Accordion.Header>What type of bookkeeping does Go4Profit offer?</Accordion.Header>
+            <Accordion.Header>Do we have to meet in person?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              I would love to meet with you in person, but the whole process is 100% online.
+              But it doesn't mean that it's not secure. We care about our brand name and we 
+              never let our clients be ignored. There's 24/7 support and we are always open 
+              for meetings. 
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className='services-third-item' eventKey="2">
-            <Accordion.Header>How does Go4Profit do my business bookkeeping?</Accordion.Header>
+            <Accordion.Header>If I don't see my option in your three packages, what do I do?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+             if you don't see your option it doesn't mean that your business doesn't fit us. 
+             We always provide a Free Consultation where we do a Diagnostic review of your bookkeeping. 
+             Make a call and let us help you!
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

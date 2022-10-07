@@ -105,28 +105,16 @@
 }
 
 .whyus-third-child img {
-  width: 120px;
+  width: 100px;
 }
 
 .whyus-third-child-w {
-  padding-bottom: 2%;
+  padding-bottom: 7%;
   border-bottom: 3px solid #41635C;
 }
 
-.whyus-third-child-box {
-  display: flex;
-  align-items: flex-start;
-  font-size: small;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.whyus-third-child-box img {
-  width: 20px;
-}
-
 .whyus-third-child-p {
-  font-size: smaller;
+  font-size: medium;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -134,11 +122,11 @@
 .whyus-third-border {
   border-bottom: 2px white solid;
   height: 200px;
-  width: 100px;
+  width: 50px;
   transform: translateY(-50%);
   align-self: center;
   justify-self: center;
-  margin-top: -100px;
+  margin-top: -70px;
 }
 
 /* FORTH */
