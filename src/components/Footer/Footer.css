@@ -2,7 +2,7 @@
   display: grid;
   grid-template-rows: 150px auto 150px;
   gap: 1rem;
-  padding: 5%;
+  padding: 5% 5% 0 5%;
   background-color: #F8F9FA;
 }
 
@@ -16,7 +16,6 @@
   justify-items: center;
   text-align: center;
   align-items: center;
-
 }
 
 .fotter-logo-img {
@@ -43,7 +42,7 @@
   display: grid;
   justify-items: center;
   gap: 1rem;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   font-size: smaller
 }
 

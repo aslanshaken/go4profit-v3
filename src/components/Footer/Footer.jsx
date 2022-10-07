@@ -41,7 +41,7 @@ export default function Footer() {
           <a href='/' target="_blank"><img alt="icons" src={Facebook}/></a>
           <a href='https://www.instagram.com/ainura.finance/' target="_blank"  rel="noreferrer"><img alt="icons" src={Instagram}/></a>
         </div>
-        <div>Ⓒ Go4profit 2022 All rights are reserved </div>
+        <p>Ⓒ Go4profit 2022 All rights are reserved </p>
       </div>
     </div>
   );
