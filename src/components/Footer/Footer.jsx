@@ -28,11 +28,9 @@ export default function Footer() {
         </div>
         <div className='footer-row'>
           <p className='g-txt'>Our Office</p>
-          <a href="/join-us">1 Liberty St #226,
-          New York, NY 10006
-          </a>
+          <a href="/join-us">1 Liberty St #226</a>
+          <a href="/join-us">New York, NY 10006</a>
           <a href="tel:917-200-7609">+1-917-200-7609</a>
-          <a href="mailto:go4profit@gmail.com">go4profit@gmail.com</a>
         </div>
       </div>
       <div className='footer-container-third'>
@@ -41,6 +39,7 @@ export default function Footer() {
           <a href='/' target="_blank"><img alt="icons" src={Facebook}/></a>
           <a href='https://www.instagram.com/ainura.finance/' target="_blank"  rel="noreferrer"><img alt="icons" src={Instagram}/></a>
         </div>
+        <a href="mailto:go4profit@gmail.com">info@go4profit.us</a>
         <p>Ⓒ Go4profit 2022 All rights are reserved </p>
       </div>
     </div>

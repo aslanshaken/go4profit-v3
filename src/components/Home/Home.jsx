@@ -35,7 +35,7 @@ export default function Home(){
             <img alt='rd-img' src={GrowIcon}/>
             <h5>CFO services for better financial strategy</h5>
           </div>
-          <Button href="/book-a-call" variant="success" className="quote-button-home"><h5>Get an instant quote</h5></Button>{' '}
+          <Button href="/book-a-call" variant="success" className="quote-button-home">Get an instant quote</Button>{' '}
         </div>
         <div className='home-first-b'>
           <img className='main-image' alt='rd-img' src={MainPic} />

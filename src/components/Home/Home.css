@@ -71,9 +71,9 @@
   background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
   border-radius: 40px;
   border: none;
-  padding: 2% 5% 2% 5%;
   white-space: nowrap;
   width: fit-content;
+  font-size: larger;
 }
 
 /* Second */

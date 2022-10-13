@@ -1,8 +1,5 @@
 .footer-container {
-  display: grid;
-  grid-template-rows: 150px auto 150px;
-  gap: 1rem;
-  padding: 5% 5% 0 5%;
+  padding: 5% 5% 10% 5%;
   background-color: #F8F9FA;
 }
 
@@ -16,10 +13,12 @@
   justify-items: center;
   text-align: center;
   align-items: center;
+  margin-bottom: 3%;
 }
 
 .fotter-logo-img {
   width: 100px;
+  margin-bottom: 2%;
 }
 
 .footer-container-second {
@@ -43,7 +42,8 @@
   justify-items: center;
   gap: 1rem;
   grid-template-rows: 1fr 1fr;
-  font-size: smaller
+  font-size: smaller;
+  margin-top: 10%;
 }
 
 .fotter-container-icons {
