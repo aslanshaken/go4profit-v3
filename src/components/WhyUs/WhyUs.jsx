@@ -45,10 +45,7 @@ export default function WhyUs() {
           <Card.Body>
             <Card.Title>Peace Of Mind</Card.Title>
             <Card.Text>
-            Our professional bookkeepers are 
-            trained in error-free data entry,
-            so you can be confident in the 
-            figures they produce.
+            Get the support of a nationwide team of virtual bookkeepers, financial analysts and tax pros.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -58,10 +55,7 @@ export default function WhyUs() {
             <Card.Title>We Are Remote But We Don’t Outsource</Card.Title>
             <Card.Text>
             We are your trusted remote advisors committed 
-          to your financial needs. We don’t outsource 
-          our work, rather we source talent from around
-          the globe to hire the best team who are 100%
-          under control.
+          to your financial needs. Get powerful financial reporting, backed by a team of real, live bookkeepers located in US. 
             </Card.Text>
           </Card.Body>
         </Card>

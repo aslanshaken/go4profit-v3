@@ -13,9 +13,7 @@ export default function Services() {
   return(
     <div className='services-container'>
       <h2 className='services-header'>Businesses we serve</h2>
-      <h4 className='services-paragraph'>We have a big team of professionals who have 10+ experience 
-        in each industry. Each of them can do several types of 
-        financial analysis such as benchmarking, ratio, trend etc.
+      <h4 className='services-paragraph'>We provide bookkeeping services with flat rate,  no hourly rates or hidden fees. No surprises.
       </h4>
       <div className='services-cards'>
         <div className='services-card'>
@@ -157,29 +155,24 @@ export default function Services() {
         </div>
         <Accordion className='reveal'>
           <Accordion.Item className='services-third-item' eventKey="0">
-            <Accordion.Header>Will Go4Profit file my personal taxes?</Accordion.Header>
+            <Accordion.Header>What's difference between bookkeeping and accounting?</Accordion.Header>
             <Accordion.Body>
-              No, we only provide bookkeeping services with the advice of a
-              Financial Analyst. We always help our clients by "informing" 
-              them about what kind of Tax Strategies are there, but we don't
-              file the taxes themselves. We are more focused on Growing your 
-              business by helping you to make the right Financial Decisions. 
-              We are leaving all paperwork to CPAs. 
+              Bookkeeping and accounting serve separate and distinc functions in the running of a business.
+              Bookkeeping is the function of documenting and maintaining records of transactions. Accounting 
+              is the act of actually analyzing and interpreting the documentation and turning into meaningful
+              data. 
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className='services-third-item' eventKey="1">
             <Accordion.Header>Do we have to meet in person?</Accordion.Header>
             <Accordion.Body>
-              I would love to meet with you in person, but the whole process is 100% online.
-              But it doesn't mean that it's not secure. We care about our brand name and we 
-              never let our clients be ignored. There's 24/7 support and we are always open 
-              for meetings. 
+            It would be a pleasure to have a face-to-face meeting with you, but please know that our process is entirely online, which we have designed to ensure the utmost security and to uphold the integrity of our brand. You can trust that our clients are always a top priority, and we offer 24/7 support and are always available for meetings.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item className='services-third-item' eventKey="2">
             <Accordion.Header>If I don't see my option in your three packages, what do I do?</Accordion.Header>
             <Accordion.Body>
-             if you don't see your option it doesn't mean that your business doesn't fit us. 
+             If you don't see your option it doesn't mean that your business doesn't fit us. 
              We always provide a Free Consultation where we do a Diagnostic review of your bookkeeping. 
              Make a call and let us help you!
             </Accordion.Body>
