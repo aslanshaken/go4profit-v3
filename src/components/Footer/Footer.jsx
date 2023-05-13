@@ -9,7 +9,6 @@ export default function Footer() {
   return (
     <div className='footer-container'>
       <div className='footer-container-first'>
-        <img alt="logo" src={Logo} className="fotter-logo-img" />
         <p>Financial solutions and online accounting excellence </p>
       </div>
       <div className='footer-container-second'>

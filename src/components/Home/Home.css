@@ -48,9 +48,8 @@
 }
 
 .main-video {
-  padding-top: 12%;
-  padding-right: 12%;
-  width: 100%;
+  padding: 8%;
+  width: 'auto';
   height: 500px;
 }
 
@@ -172,10 +171,6 @@ td {
 
   .home-bullet-points {
     grid-template-columns: 8% 92%;
-  }
-
-  .home-first-b {
-    display: none;
   }
 
   /* Second */
