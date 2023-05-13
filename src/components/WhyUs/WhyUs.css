@@ -1,5 +1,6 @@
 .whyus-header-h4 {
-  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 80px;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 1.2px;
   text-align: center;
 }
@@ -17,18 +18,16 @@
 /* FIRST */
 .whyus-first {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  gap: 2em;
-  padding: 5%;
+  gap: 1em;
+  padding-top: 5%;
 }
 
 .whyus-first-child {
+  border: none;
   text-align: center;
-  padding: 2%;
-  width: 400px;
   background-color: #505050;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .whyus-first-child img {
@@ -41,11 +40,11 @@
 /* SECOND */
 
 .whyus-easy-header {
-  border-bottom: 3px solid #41635C;
+  border-bottom: 3px solid #41635c;
   margin: 8% 0% 5% 0%;
   padding-bottom: 1%;
   width: fit-content;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 1.2px;
 }
 
@@ -59,6 +58,10 @@
 .whyus-second-child {
   display: grid;
   grid-template-columns: 25% 75%;
+}
+
+.whyus-fist-child-title {
+  height: 60px;
 }
 
 .whyus-second-child-a {
@@ -84,12 +87,11 @@
 /* THIRD */
 
 .whyus-third-header {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 1.2px;
   padding: 0% 10% 0% 10%;
   text-align: center;
 }
-
 
 .whyus-third {
   display: grid;
@@ -110,7 +112,7 @@
 
 .whyus-third-child-w {
   padding-bottom: 7%;
-  border-bottom: 3px solid #41635C;
+  border-bottom: 3px solid #41635c;
 }
 
 .whyus-third-child-p {
@@ -139,7 +141,7 @@
 
 .whyus-forth-a {
   padding: 5% 5% 0% 5%;
-  background-color: #41635C;
+  background-color: #41635c;
   box-shadow: 5px 10px 5px 5px #393535;
 }
 
@@ -210,8 +212,7 @@
   }
 }
 
-@media(max-width: 900px) {
-
+@media (max-width: 900px) {
   .whyus-first {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -235,12 +236,10 @@
 }
 
 @media (max-width: 625px) {
-
   .whyus-header-h5 {
     line-height: 30px;
     padding: 0% 5% 0% 5%;
   }
-
 
   .whyus-first {
     grid-template-columns: repeat(1, 1fr);
@@ -293,7 +292,6 @@
 }
 
 @media (max-width: 400px) {
-
   .whyus-second-child-a-img2 {
     width: 70px;
   }

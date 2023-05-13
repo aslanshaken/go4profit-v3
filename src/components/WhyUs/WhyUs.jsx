@@ -39,11 +39,11 @@ export default function WhyUs() {
          We are devoted to providing you with an outstanding level of financial
          solutions and online accounting excellence
       </h5>
-      <div className='whyus-first'>
+      <div className='whyus-first'> 
         <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={Partnerships} />
           <Card.Body>
-            <Card.Title>Peace Of Mind</Card.Title>
+            <Card.Title className='whyus-fist-child-title'>Peace Of Mind</Card.Title>
             <Card.Text>
             Get the support of a nationwide team of virtual bookkeepers, financial analysts and tax pros.
             </Card.Text>
@@ -52,7 +52,7 @@ export default function WhyUs() {
         <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={S1} />
           <Card.Body>
-            <Card.Title>We Are Remote But We Don’t Outsource</Card.Title>
+            <Card.Title className='whyus-fist-child-title'>We Are Remote But We Don’t Outsource</Card.Title>
             <Card.Text>
             We are your trusted remote advisors committed 
           to your financial needs. Get powerful financial reporting, backed by a team of real, live bookkeepers located in US. 
@@ -62,7 +62,7 @@ export default function WhyUs() {
         <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={Illustration} />
           <Card.Body>
-            <Card.Title>Accurate Financial Reporting</Card.Title>
+            <Card.Title className='whyus-fist-child-title'>Accurate Financial Reporting</Card.Title>
             <Card.Text>
             We produce accurate figures & provide financial 
             advice that enables you to make insightful
@@ -73,7 +73,7 @@ export default function WhyUs() {
         <Card className='whyus-first-child reveal'>
           <Card.Img variant="top" src={Calculator} />
           <Card.Body>
-            <Card.Title>Cost-Effective</Card.Title>
+            <Card.Title className='whyus-fist-child-title'>Cost-Effective</Card.Title>
             <Card.Text>
             Our packages will provide you with more efficient
             and profitable results than accounting services 
