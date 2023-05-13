@@ -45,15 +45,13 @@ export default function Home() {
         </div>
         <div className="home-first-b">
           {/* <img className='main-image' alt='rd-img' src={MainPic} /> */}
-          <video controls className="main-video">
-            <source
-              src={
-                "https://www.youtube.com/watch?v=Yr1IJaJK_ow&feature=youtu.be"
-              }
-              type="video/mp4"
-            />
-            Sorry, your browser doesn't support embedded videos.
-          </video>
+          <iframe
+            className="main-video"
+            title="video"
+            src="https://www.youtube.com/embed/Yr1IJaJK_ow"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <div className="home-second">
