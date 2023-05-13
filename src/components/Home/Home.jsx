@@ -46,8 +46,6 @@ export default function Home() {
         <div className="home-first-b">
           {/* <img className='main-image' alt='rd-img' src={MainPic} /> */}
           <iframe
-            width="100%"
-            height="100%"
             className="main-video"
             title="video"
             src="https://www.youtube.com/embed/Yr1IJaJK_ow"
