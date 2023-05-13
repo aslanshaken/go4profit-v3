@@ -50,7 +50,6 @@
 .main-video {
   padding: 8%;
   height: 450px;
-  width: 712px;
 }
 
 .home-bullet-points {
@@ -259,7 +258,6 @@ td {
   }
 }
 
-
 /* THIRD */
 
 .services-third {
@@ -283,8 +281,6 @@ td {
 .services-third-item {
   width: 500px;
 }
-
-
 
 @media (max-width: 1150px) {
   .services-cards {
@@ -349,11 +345,9 @@ td {
     grid-template-columns: repeat(1, 1fr);
     gap: 3em;
   }
-
 }
 
 @media (max-width: 530px) {
-
   .services-second {
     grid-template-columns: repeat(2, 1fr);
   }
