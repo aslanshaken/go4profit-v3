@@ -9,7 +9,6 @@ function Header() {
   const path = location.pathname;
 
   return (
-    <div className="wrapper">
       <Navbar
         expand="xl"
         sticky="top"
@@ -68,7 +67,6 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
   );
 }
 
