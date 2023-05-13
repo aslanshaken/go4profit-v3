@@ -48,8 +48,10 @@
 }
 
 .main-video {
-  padding: 8%;
-  height: 450px;
+  margin-top: 7%;
+  width: 100%;
+  padding: 50px;
+  min-height: 450px;
 }
 
 .home-bullet-points {
@@ -158,6 +160,7 @@ td {
 }
 
 @media (max-width: 1000px) {
+
   /* First */
   .home-first {
     grid-template-columns: 1fr;

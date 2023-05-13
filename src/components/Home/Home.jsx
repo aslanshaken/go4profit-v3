@@ -45,13 +45,15 @@ export default function Home() {
         </div>
         <div className="home-first-b">
           {/* <img className='main-image' alt='rd-img' src={MainPic} /> */}
-          <iframe
-            className="main-video"
-            title="video"
-            src="https://www.youtube.com/embed/Yr1IJaJK_ow"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <div className="main-video">
+            <iframe
+              loading="lazy"
+              src="https://www.youtube.com/embed/Yr1IJaJK_ow?controls=0&rel=0&modestbranding=1&showinfo=0&fs=0"
+              frameBorder={0}
+              width={'100%'}
+              height={'100%'}
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="home-second">
