@@ -1,12 +1,18 @@
 import "./Services.css";
 import Button from "react-bootstrap/Button";
 import Checkbox from "../../assets/green-checkbox.png";
-import Stripe from "../../assets/stripe.png";
-import Gusto1 from "../../assets/gusto1.png";
-import Shopify1 from "../../assets/shopify1.png";
-import BigCommerce from "../../assets/bigcommerce.png";
-import Freshbooks from "../../assets/freshbooks.png";
+import Qb from "../../assets/qb.png";
+import Adp from "../../assets/adp.png";
+import Gusto from "../../assets/gusto2.png";
 import Square from "../../assets/square.png";
+import Bill from "../../assets/bill.png";
+import Amazon from "../../assets/amazon.png";
+import Shopify from "../../assets/Shopify.png";
+import Stripe from "../../assets/stripe.png";
+import Xero from "../../assets/xero.png";
+import A2x from "../../assets/a2x.png";
+import Berx from "../../assets/berx.png";
+import Divvy from "../../assets/divvy.png";
 
 export default function Services() {
   return (
@@ -195,12 +201,18 @@ export default function Services() {
         We partner with the world's best
       </h3>
       <div className="services-second reveal">
-        <img alt="services" src={BigCommerce} />
-        <img alt="services" src={Stripe} />
-        <img alt="services" src={Freshbooks} />
-        <img alt="services" src={Shopify1} />
-        <img alt="services" src={Gusto1} />
+        <img alt="services" src={Qb} />
+        <img alt="services" src={Adp} />
+        <img alt="services" src={Gusto} />
         <img alt="services" src={Square} />
+        <img alt="services" src={Bill} />
+        <img alt="services" src={Amazon} />
+        <img alt="services" src={Shopify} />
+        <img alt="services" src={Stripe} />
+        <img alt="services" src={Xero} />
+        <img alt="services" src={A2x} />
+        <img alt="services" src={Berx} />
+        <img alt="services" src={Divvy} />
       </div>
     </div>
   );

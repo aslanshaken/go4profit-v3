@@ -1,6 +1,6 @@
 .services-container {
   background-color: #505050;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .services-header {
-  border-bottom: 3px solid #41635C;
+  border-bottom: 3px solid #41635c;
   margin: 0% 0% 5% 0%;
   font-weight: 700;
 }
@@ -61,7 +61,7 @@
 }
 
 .services-popular-sign {
-  background-color: #DFAB47;
+  background-color: #dfab47;
   text-align: center;
   padding: 1%;
   border-radius: 5px;
@@ -73,7 +73,7 @@
 }
 
 .start-button {
-  background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
+  background: linear-gradient(101.25deg, #41635c 0%, #528177 93.56%);
   border-radius: 40px;
   border: none;
   padding: 1% 5% 1% 5%;
@@ -87,7 +87,7 @@
   text-align: center;
   padding-bottom: 10%;
   padding-top: 2%;
-  border-bottom: 2px solid #41635C;
+  border-bottom: 2px solid #41635c;
   width: 100%;
 }
 
@@ -99,12 +99,12 @@
   text-align: center;
   padding-bottom: 10%;
   padding-top: 10%;
-  border-bottom: 2px solid #41635C;
+  border-bottom: 2px solid #41635c;
   width: 100%;
 }
 
 .services-card-popular-a span {
-  color: #41635C;
+  color: #41635c;
 }
 
 .services-card-popular-a h4 {
@@ -113,7 +113,7 @@
 }
 
 .services-card-a span {
-  color: #41635C;
+  color: #41635c;
 }
 
 .services-card-a h4 {
@@ -172,12 +172,12 @@
 }
 
 .services-card-small h5 {
-  border-bottom: 3px solid #41635C;
+  border-bottom: 3px solid #41635c;
   margin-bottom: 6%;
 }
 
 .book-button {
-  background: linear-gradient(101.25deg, #41635C 0%, #528177 93.56%);
+  background: linear-gradient(101.25deg, #41635c 0%, #528177 93.56%);
   border-radius: 40px;
   border: none;
   padding: 1% 10% 1% 10%;
@@ -196,20 +196,23 @@
 /* SECOND */
 
 .services-partner-header {
-  border-bottom: 3px solid #41635C;
+  border-bottom: 3px solid #41635c;
   margin: 10% 0% 5% 0%;
 }
 
 .services-second {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
   align-items: center;
-  margin-bottom: 5%;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .services-second img {
-  width: 110px;
+  filter: grayscale(100%) brightness(10%) invert(100%) sepia(10%);
+  height: 40px;
+  object-fit: contain;
 }
 
 /* THIRD */
@@ -234,8 +237,6 @@
 .services-third-item {
   width: 500px;
 }
-
-
 
 @media (max-width: 1150px) {
   .services-cards {
@@ -300,11 +301,9 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 3em;
   }
-
 }
 
 @media (max-width: 530px) {
-
   .services-second {
     grid-template-columns: repeat(2, 1fr);
   }
