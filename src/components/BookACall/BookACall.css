@@ -6,13 +6,30 @@
   justify-content: center;
   align-items: center;
   padding: 5%;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 #calendly {
   height: 800px;
 }
 
+.call-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.phone-button {
+  border-radius: 50%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.joinus-form {
+  margin-top: 30px;
+}
 
 @media (max-width: 1115px) {
   #calendly {
